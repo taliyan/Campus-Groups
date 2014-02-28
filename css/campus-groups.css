@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* TOP NAVIGATION */
+.white-bg {
+	background:#fff;
+}
+
+/* BODY */
+body {
+	background: #f5f5f5;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 0;
+}
+
+/* TOP NAVIGATION */
+.navbar-default {
+	background: rgba(250, 250, 250, .95);
+	margin-bottom: 0; 
+}
+
+#top-navigation {
+	text-transform: uppercase;
+}
+ 
+.navbar-nav > li {
+	border-top: 3px solid rgba(0, 0, 0, 0);
+}
+
+.navbar-nav > li.active {
+	background: #fff;
+	border-top: 3px solid #ba5959;
+}
+
+.navbar-nav > li:hover, .navbar-nav > li:focus {
+	background: #fff;
+	border-top: 3px solid #999;
+}
+
+.navbar-default  .navbar-nav > li.active a, .navbar-default.navbar-default  .navbar-nav > li.active a:hover {
+	background: none;
+}
+
+
+
+/* HIGHLIGHT SECTION */
+#highlight .jumbotron {
+	background: url("../template-images/campusgroups-highlight-bg.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+	color:#fff;
+	height: 690px;
+	width: 100%;
+}
+
+.jumbotron h1 {
+}
+
+.jumbotron h1, .jumbotron p {
+	position: relative;
+	z-index:10;
+}
+
+.branding {
+	background: url("../template-images/campusgroups-branding.png");
+	float: left;
+	height: 294px;
+	position: relative;
+	margin-top: -200px;
+	margin-left: -180px;
+	width: 272px;
+}
+
+/* MAIN SECTION */
+#main {
+	positon: relative;
+	margin-top: -300px;
+}
