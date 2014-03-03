@@ -21,24 +21,26 @@
     <!-- HEADER -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">BOSTON COLLEGE</a>
+        <div class="col-md-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">BOSTON COLLEGE</a>
+          </div>
+          <div id="top-navigation" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right" role="navigation">
+              <li class="active"><a href="#">My Groups</a></li>
+              <li><a href="#">Create a Group</a></li>
+              <li><a href="#">Browse Groups</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
-        <div id="top-navigation" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">My Groups</a></li>
-            <li><a href="#">Create a Group</a></li>
-            <li><a href="#">Browse Groups</a></li>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Logout</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
       </div>
     </div>
     <!-- HEADER END -->
@@ -46,39 +48,124 @@
     <div id="highlight">
       <div class="jumbotron">
         <div class="container">
-          <div class="col-md-8">
-            <h1>CAMPUS GROUPS</h1>
-            <p>Helping Manage the BC Community</p>
-            <div class="branding"></div>
-          </div>
-          <div class="col-md-4">
-            Logged in as <br />
-            Mikal Morello
+          <div class="row">
+            <div class="col-md-8">
+              <h1>CAMPUS GROUPS</h1>
+              <p class="subhead">Helping Manage the BC Community</p>
+              <div class="branding"></div>
+            </div>
+            <div class="col-md-4 pull-right">
+              <div class="logged-in">
+                <div class="logged-in-group">
+                  <a href=""><span class="logged-in-group-number">33</span></a><br />
+                  groups
+                </div>
+                <span class="glyphicon glyphicon-cog glyphicon-white"></span>
+                Logged in as <br /> 
+                <a href=""><span class="member-name">Mikal Morello</span></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
    <!-- HIGHLIGHT END -->
    <!-- MAIN SECTION -->
-    <div id="main-top" class="container">       
-       <div class="col-md-8">Breadcrumbs</div>
-       <div class="col-md-4">Search</div>
+    <div id="main-top">
+      <div class="container">
+        <div class="row">       
+          <div class="col-md-8">
+            <ol class="breadcrumb">
+              <li><a href="#">Home</a></li> 
+              <li><a href="#">Link</a></li>
+              <li class="active">Link Active</li>
+            </ol>
+          </div>
+          <div class="col-md-4">      
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="main" class="container">
-       <div class="col-md-4 white-bg">xxx</div>
-       <div class="col-md-8 white-bg">xx</div>
+    <div class="clearfix"></div>
+    <div id="main">
+      <div class="container">
+        <div class="row row-offcanvas row-offcanvas-left">
+           <div id="sidebar" class="col-xs-6 col-sm-3 sidebar-offcanvas">
+             <div class="content-header">
+               <h3>Link Title</h3>
+             </div>
+             <div class="left-navigation" role="navigation">
+               <div class="list-group">
+                 <a class="list-group-item active" href="#">Link</a>
+                 <a class="list-group-item" href="#">Link</a>
+                 <a class="list-group-item" href="#">Link</a>
+                 <a class="list-group-item" href="#">Link</a>
+                 <a class="list-group-item" href="#">Link</a>
+                 <a class="list-group-item" href="#">Link</a>
+                 <a class="list-group-item" href="#">Link</a>
+                 <a class="list-group-item" href="#">Link</a>
+                 <a class="list-group-item" href="#">Link</a>
+                 <a class="list-group-item" href="#">Link</a>
+                 </div>
+              </div>
+           </div>
+           <div class="col-xs-12 col-sm-9">
+             <!-- LEFT NAVIGATION COLLAPSE -->
+             <p class="pull-left visible-xs">
+               <button class="btn btn-primary btn-xs" data-toggle="offcanvas" type="button">Toggle nav</button>
+             </p>
+             <!-- LEFT NAVIGATION COLLAPSE END -->
+             <div class="content-header">
+               <h2>Content Header</h2>
+               <p> xxxx </p>
+             </div>
+             <div class="content-main">
+               <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu sem vitae turpis laoreet congue at ac eros. Sed ut erat sed urna bibendum suscipit. Vivamus elementum, nisl eu hendrerit elementum, elit nunc bibendum elit, ac rutrum urna erat vel dolor. Nulla vestibulum turpis est, eu varius erat laoreet eget. Nam ac luctus neque, eget vestibulum magna. Proin sit amet velit neque. Quisque vestibulum sagittis magna vel ornare. Praesent hendrerit in turpis porta lobortis. Integer ut turpis pharetra, venenatis leo vel, ullamcorper tortor. Donec placerat, lorem non vehicula bibendum, lacus dolor placerat ligula, quis ultricies lacus tortor sed sapien. Vivamus molestie rutrum bibendum.
+  
+  Praesent sodales varius blandit. Sed posuere massa eu odio facilisis, et pulvinar massa iaculis. Donec porttitor risus vel nibh bibendum feugiat. Fusce vel porttitor odio, et ultricies ipsum. Suspendisse ac libero sed erat vulputate tincidunt. Ut sit amet felis dictum, porta est nec, pharetra sem. Sed cursus velit nec lacus rutrum, viverra mollis justo pulvinar. Cras commodo elementum molestie. Pellentesque mattis elit nunc, ut adipiscing enim dictum at. Quisque nec libero pellentesque erat porttitor sollicitudin. Proin sed leo vel eros fringilla fermentum. Curabitur est metus, malesuada non turpis in, hendrerit cursus felis. Sed rutrum, sapien quis gravida fringilla, eros lacus vulputate augue, sed eleifend nisl diam sed erat.
+  
+  Nullam quis egestas sem. Integer ut iaculis metus. Cras lacus metus, mollis eget auctor in, interdum in eros. Etiam odio elit, aliquet at nulla ut, rutrum congue sem. Donec metus erat, luctus sit amet hendrerit quis, sollicitudin a arcu. Duis a arcu accumsan tortor facilisis aliquam eget in nibh. Suspendisse eros lorem, pharetra at dui vel, fringilla tincidunt tellus.
+  
+  Curabitur id eros pellentesque, ornare ante eu, adipiscing nibh. Duis facilisis, erat quis faucibus sodales, velit nunc aliquam augue, et sodales mi nisl id mauris. Pellentesque ut elit justo. Fusce nec turpis ut massa rutrum lacinia. Quisque volutpat eleifend odio sit amet vehicula. Curabitur enim nulla, vulputate in ultricies et, tempus pretium odio. Quisque consectetur erat at elit ornare, ac ullamcorper tellus fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi posuere urna sed ultricies rhoncus. Integer fermentum, neque a fermentum varius, elit risus blandit eros, ac dictum ante ante in nisl. Praesent pharetra tortor lobortis, aliquet elit id, tempus tortor. Cras rutrum bibendum porttitor. Suspendisse nec turpis eu enim congue ultricies at sed sapien. Vivamus at orci dui. Fusce ut felis sit amet tortor interdum rhoncus in eget elit.
+  
+  Quisque tempus leo turpis, ac ultrices turpis cursus eget. Aenean laoreet ligula vitae sem tincidunt auctor. Sed id facilisis velit. In lacinia elit id ullamcorper molestie. Mauris non blandit ligula. Curabitur lacinia, sem vel ullamcorper luctus, est dui vulputate orci, ac pretium augue odio et nulla. Vivamus dapibus aliquet scelerisque. Pellentesque sagittis porttitor felis. Nunc facilisis interdum egestas. Nunc euismod euismod ornare. Duis ultrices id felis rhoncus eleifend. Nunc consequat vitae eros vitae consectetur. Quisque eu orci libero. Donec ac arcu ac leo blandit vestibulum. Suspendisse facilisis auctor interdum. Donec in facilisis lectus, tristique tincidunt sapien. </p>
+             </div>
+           </div>
+        </div>
+      </div>
     </div>
     <!-- MAIN SECTION END -->
     <!-- FOOTER SECTION -->
-    <div class="container">
-      XXX
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <a href=""><img class="footer-crest" src="template-images/campusgroups-footer-crest.png" /></a><br />
+          <div class="bottom-navigation">
+            <ul class="nav navbar-nav" role="navigation">
+              <li class="active"><a href="#">My Groups</a></li>
+              <li><a href="#">Create a Group</a></li>
+              <li><a href="#">Browse Groups</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- FOOTER SECTION END -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/campus-groups.js"></script>
   </body>
 </html>
 

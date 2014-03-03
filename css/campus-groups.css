@@ -3,79 +3,287 @@
 
 
 /* TOP NAVIGATION */
-.white-bg {
-	background:#fff;
-}
+
+  .white-bg {
+	  background:#fff;
+  }
+
 
 /* BODY */
-body {
-	background: #f5f5f5;
-	font-family: 'Source Sans Pro', sans-serif;
-	padding-top: 0;
-}
+
+  body {
+	  background: #f5f5f5;
+	  font-family: 'Source Sans Pro', sans-serif;
+	  padding-top: 0;
+  }
+
 
 /* TOP NAVIGATION */
-.navbar-default {
-	background: rgba(250, 250, 250, .95);
-	margin-bottom: 0; 
-}
 
-#top-navigation {
-	text-transform: uppercase;
-}
- 
-.navbar-nav > li {
-	border-top: 3px solid rgba(0, 0, 0, 0);
-}
-
-.navbar-nav > li.active {
-	background: #fff;
-	border-top: 3px solid #ba5959;
-}
-
-.navbar-nav > li:hover, .navbar-nav > li:focus {
-	background: #fff;
-	border-top: 3px solid #999;
-}
-
-.navbar-default  .navbar-nav > li.active a, .navbar-default.navbar-default  .navbar-nav > li.active a:hover {
-	background: none;
-}
+  .navbar-default {
+	  background: rgba(250, 250, 250, .95);
+	  margin-bottom: 0; 
+  }
+  
+  #top-navigation {
+	  text-transform: uppercase;
+  }
+   
+  #top-navigation .navbar-nav > li {
+	  border-top: 3px solid rgba(0, 0, 0, 0);
+  }
+  
+  #top-navigation .navbar-nav > li.active {
+	  background: #fff;
+	  border-top: 3px solid #ba5959;
+  }
+  
+  #top-navigation .navbar-nav > li:hover, #top-navigation .navbar-nav > li:focus {
+	  background: #fff;
+	  border-top: 3px solid #999;
+  }
+  
+  #top-navigation .navbar-default  .navbar-nav > li.active a, #top-navigation .navbar-default.navbar-default  .navbar-nav > li.active a:hover {
+	  background: none;
+  }
 
 
 
 /* HIGHLIGHT SECTION */
-#highlight .jumbotron {
-	background: url("../template-images/campusgroups-highlight-bg.jpg") no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-	color:#fff;
-	height: 690px;
-	width: 100%;
-}
 
-.jumbotron h1 {
-}
+  #highlight .jumbotron {
+	  background: url("../template-images/campusgroups-highlight-bg.jpg") no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	  color:#fff;
+	  height: 600px;
+	  padding: 60px 0 50px 0;
+	  width: 100%;
+  }
+  
+  .jumbotron h1 {
+	  font-weight: 600;
+	  letter-spacing:-1px;
+	  line-height: 55px;
+	  margin-bottom: 0;
+  }
+  
+  .jumbotron a {
+	  color: #fff;
+  }
+  
+  .jumbotron .subhead {
+	   font-size: 18px;
+	   line-height: 1em;
+	   margin-top: 0;
+	   text-transform:uppercase;
+  }
+  
+  .jumbotron h1, .jumbotron .subhead {
+	  position: relative;
+	  z-index:10;
+  }
+  
+  .branding {
+	  background: url("../template-images/campusgroups-branding.png");
+	  float: left;
+	  height: 294px;
+	  position: relative;
+	  margin-top: -165px;
+	  margin-left: -185px;
+	  width: 272px;
+  }
 
-.jumbotron h1, .jumbotron p {
-	position: relative;
-	z-index:10;
-}
+/* HIGHLIGHT LOGIN */
+  .logged-in {
+	  margin-top: 35px;
+  }
+  
+  .logged-in-group {
+	  background: url("../template-images/campusgroups-login-groups-bg.png");
+	  background-repeat: no-repeat;
+	  float: left;
+	  font-size: 12px;
+	  height: 70px;
+	  line-height: 14px;
+	  padding-top: 20px;
+	  padding-right: 8px;
+	  margin-right: 10px;
+	  margin-top: -15px;
+	  width: 80px; 
+	  text-align: center;
+	  text-transform: uppercase;
+  }
+  
+  .logged-in-group-number {
+	  font-size: 40px;
+  }
+  
+  .member-name {
+	  font-size: 24px;
+	  font-weight: 600;
+	  line-height: 22px;
+  }
+  
+  .logged-in .glyphicon {
+	  float: left;
+      font-size: 28px;
+      margin-right: 7px;
+      margin-top: 5px;
+  }
 
-.branding {
-	background: url("../template-images/campusgroups-branding.png");
-	float: left;
-	height: 294px;
-	position: relative;
-	margin-top: -200px;
-	margin-left: -180px;
-	width: 272px;
-}
+/* MAIN-TOP SECTION */
+
+  #main-top {
+	  clear: both;
+	  positon: relative;
+	  margin-top: -500px;
+  }
+  
+  .breadcrumb {
+	  background: none;
+	  font-weight: 400;
+	  margin-bottom: 0;  
+  }
+  
+  .breadcrumb > li + li:before {
+	color: #eeeeee;
+    content: "| ";
+    padding: 0 5px;
+  }
+  
+  .breadcrumb a, .breadcrumb > .active {
+	  color:#fff;
+	  opacity: .8;
+	  text-shadow: 1px 1px 1px #333;
+	  text-transform:uppercase;
+  }
+  
+  .breadcrumb > .active {
+	  color:#fff;
+	  font-weight: 600;
+	  opacity: 1;
+  }
 
 /* MAIN SECTION */
-#main {
-	positon: relative;
-	margin-top: -300px;
+  #main {
+	  positon: relative;
+	  margin-top: -500px;
+  }
+  
+  #main .content-header {
+	  background: #882224;
+	  color:#fff;
+	  clear: both;
+	  padding: 30px 5%;
+  }
+  
+  .content-main {
+	  background: #fff;
+	  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.16);
+	  padding: 30px 5%;
+  }
+
+/* MAIN SECTION - SIDEBAR */  
+  
+    #sidebar .content-header {
+	  background: #882224;
+	  color:#fff;
+	  clear: both;
+	  padding: 30px 5%;
+  }
+  
+  #sidebar .list-group-item:first-child, #sidebar .list-group-item:last-child {
+	  border-radius: 0;
+  }
+  
+  
+
+/* FOOTER SECTION */
+
+  #footer {
+	  background: #fff;
+	  margin-top: 100px;
+	  min-height: 50px;
+	  text-align: center;
+  }
+  
+  .bottom-navigation {
+	  display: inline-block;
+  }
+  
+  .bottom-navigation ul {
+	  display: inline;
+  }
+  
+  img.footer-crest {
+	  position: relative;
+	  margin-top: -60px;
+  }
+
+
+/* GENERAL  */
+a:hover {
+	text-decoration: none;
 }
+
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+       -moz-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+  
+  #main, #main-top {
+	  margin-top: 0;
+  }
+}
+
