@@ -2,12 +2,12 @@
 /* CSS Document */
 
 
-/* TOP NAVIGATION */
+/* GENERAL*/
 
   .white-bg {
 	  background:#fff;
   }
-
+  
 
 /* BODY */
 
@@ -46,6 +46,23 @@
   #top-navigation .navbar-default  .navbar-nav > li.active a, #top-navigation .navbar-default.navbar-default  .navbar-nav > li.active a:hover {
 	  background: none;
   }
+
+
+/* TOP NAVIGATION - COLLAPSE BUTTON */  
+
+  .navbar-toggle {
+	  background: #9a1e1e;
+  }
+  
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	  background-color: #8b1515;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+      background-color: #FFFFFF;
+  }
+  
+
 
 
 
@@ -96,7 +113,9 @@
 	  width: 272px;
   }
 
+
 /* HIGHLIGHT LOGIN */
+
   .logged-in {
 	  margin-top: 35px;
   }
@@ -142,10 +161,14 @@
 	  margin-top: -500px;
   }
   
+  
+/* MAIN-TOP SECTION - BREADCRUMB */  
+
   .breadcrumb {
 	  background: none;
 	  font-weight: 400;
-	  margin-bottom: 0;  
+	  margin-bottom: 0; 
+	  padding: 22px 15px 8px; 
   }
   
   .breadcrumb > li + li:before {
@@ -166,8 +189,42 @@
 	  font-weight: 600;
 	  opacity: 1;
   }
+  
+  
+/* MAIN-TOP SECTION - SEARCH */
+
+  .form-control {
+	  border-radius: 0;
+	  border:none;
+	  float: right;
+  }
+  
+  #main-top .btn {
+	  background: #bc3a3a;
+	  border-radius: 0;
+	  border:none;
+	  color: #fff;
+	  float: right;
+	  height: 34px;
+	  text-transform: uppercase;
+  }
+  
+  #main-top .btn:hover {
+	  background: #b02f2f;
+  }
+  
+  #main-top .glyphicon {
+	  color: #999;
+	  margin-right: -20px;
+	  top: 9px;
+  }
+  
+  #main-top .form-group input {
+	  padding-left: 25px;
+  }
 
 /* MAIN SECTION */
+
   #main {
 	  positon: relative;
 	  margin-top: -500px;
@@ -180,15 +237,21 @@
 	  padding: 30px 5%;
   }
   
+  .content-header h2 {
+	  font-size: 40px;
+	  text-transform: uppercase;
+  }
+  
   .content-main {
 	  background: #fff;
 	  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.16);
 	  padding: 30px 5%;
   }
 
+
 /* MAIN SECTION - SIDEBAR */  
   
-    #sidebar .content-header {
+  #sidebar .content-header {
 	  background: #882224;
 	  color:#fff;
 	  clear: both;
@@ -198,6 +261,56 @@
   #sidebar .list-group-item:first-child, #sidebar .list-group-item:last-child {
 	  border-radius: 0;
   }
+  
+  .list-group {
+	  padding-top: 4px;
+  }
+  
+  .list-group-item {
+      background-color: #FFFFFF;
+      border: none;
+	  border-left: 6px solid #fff;
+	  text-transform: uppercase;
+  }
+  
+  .list-group-item:hover {
+	  border-left: 6px solid #999;
+	  font-weight: bold;
+  }
+  
+  .list-group-item:first-child {
+	  margin-top: 0;
+  }
+  
+  a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+      background: #fff;
+	  border: none;
+      border-left: 6px solid #882224;
+      color: #555;
+	  font-weight: 600;
+   }
+   
+   .left-navigation {
+	   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16);
+   }
+   
+   .sidebar-block {
+	  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16);
+	  color: #fff;
+	  padding: 10px 5%;
+  }
+  
+  .help.sidebar-block {
+	  background: #bc3a3a;
+  }
+  
+  .sidebar-block .glyphicon {
+	    color: #FFFFFF;
+        float: left;
+        font-size: 20px;
+        margin-bottom: -10px;
+        margin-right: 10px;
+   }
   
   
 
@@ -216,6 +329,19 @@
   
   .bottom-navigation ul {
 	  display: inline;
+	  margin-bottom:15px;
+	  margin-top:15px;
+  }
+  
+  .bottom-navigation .navbar-nav > li > a  {
+	  color: #999;
+	  border-radius: 5px;
+	  padding-bottom: 5px;
+	  padding-top: 5px;
+  }
+  
+  .bottom-navigation .nav > li > a:hover, .bottom-navigation .nav > li > a:focus {
+	  font-weight: 600;
   }
   
   img.footer-crest {
@@ -225,9 +351,10 @@
 
 
 /* GENERAL  */
-a:hover {
-	text-decoration: none;
-}
+
+  a:hover {
+	  text-decoration: none;
+  }
 
 /*
  * Style tweaks
@@ -238,10 +365,29 @@ body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
 
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+}
+
+
 /*
  * Off Canvas
  * --------------------------------------------------
  */
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) { 
+}
 @media screen and (max-width: 767px) {
   .row-offcanvas {
     position: relative;
@@ -278,12 +424,22 @@ body {
 
   .sidebar-offcanvas {
     position: absolute;
-    top: 0;
+    /* top: 0; */
+	top: 185px;
     width: 50%; /* 6 columns */
   }
   
   #main, #main-top {
-	  margin-top: 0;
+	  margin-top: -150px;
+  }
+  
+  .bottom-navigation .nav > li {
+	  display: inline-block;
+  }
+  
+  #highlight .jumbotron {
+	  height: 400px;
   }
 }
+
 
