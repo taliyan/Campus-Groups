@@ -18,7 +18,87 @@
   }
 
 
-/* TOP NAVIGATION */
+/* PORTAL - BANNER */
+
+	#portal-banner {
+		background: #580202;
+		border-bottom: 1px solid #b29d6c;
+		color:#C5B17E;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		height: 46px;
+	}
+	
+	#portal-banner a {
+		color:#fff;
+		font-weight: 600;
+	}
+	
+	.portal-login {
+		padding-top: 12px;
+	}
+	
+	#portal-banner .btn {
+		background: #9e7a7b; /* Old browsers */
+		background: -moz-linear-gradient(top,  #9e7a7b 0%, #6a2021 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9e7a7b), color-stop(100%,#6a2021)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #9e7a7b 0%,#6a2021 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #9e7a7b 0%,#6a2021 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #9e7a7b 0%,#6a2021 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #9e7a7b 0%,#6a2021 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e7a7b', endColorstr='#6a2021',GradientType=0 ); /* IE6-9 */
+		border: none;
+		border-radius: 0;
+		color:#e8e3d4;
+		font-size: .9em;
+		margin-left: 10px;
+		padding: 3px 12px;
+	}
+	
+	#portal-banner .btn:hover {
+		background: #6a2021; /* Old browsers */
+		background: -moz-linear-gradient(top,  #6a2021 0%, #9e7a7b 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6a2021), color-stop(100%,#9e7a7b)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #6a2021 0%,#9e7a7b 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #6a2021 0%,#9e7a7b 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #6a2021 0%,#9e7a7b 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #6a2021 0%,#9e7a7b 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2021', endColorstr='#9e7a7b',GradientType=0 ); /* IE6-9 */
+	}
+	
+	
+
+/* HEADER - BRANDING */
+
+  .navbar-header h1 {
+	  color:#111;
+	  font-size:40px;
+	  font-weight: 600;
+	  letter-spacing:2px;
+	  line-height: 40px;
+	  margin-bottom: 0;
+	  margin-top: 0;
+	  padding: 12px 0;
+	  text-transform: uppercase;
+  }
+  
+  .navbar-header small {
+	   color: #c7c7c7;
+	   font-size: 13.5px;
+	   letter-spacing:1px;
+	   line-height: 13.5px;
+	   margin-top: 0;
+  }
+  
+  .navbar-header h1, .navbar-header small {
+	  display: block;
+	  position: relative;
+	  z-index:10;
+	  
+  }
+
+
+/* HEADER - NAVIGATION */
 
   .navbar-default {
 	  background: rgba(250, 250, 250, .95);
@@ -26,29 +106,45 @@
   }
   
   #top-navigation {
+	  font-size: 17px;
 	  text-transform: uppercase;
   }
    
   #top-navigation .navbar-nav > li {
-	  border-top: 3px solid rgba(0, 0, 0, 0);
+	  border-top: 4px solid rgba(0, 0, 0, 0);
   }
   
   #top-navigation .navbar-nav > li.active {
 	  background: #fff;
-	  border-top: 3px solid #ba5959;
+	  border-top: 4px solid #ba5959;
   }
   
   #top-navigation .navbar-nav > li:hover, #top-navigation .navbar-nav > li:focus {
 	  background: #fff;
-	  border-top: 3px solid #999;
+	  border-top: 4px solid #999;
   }
   
   #top-navigation .navbar-default  .navbar-nav > li.active a, #top-navigation .navbar-default.navbar-default  .navbar-nav > li.active a:hover {
 	  background: none;
   }
+  
+  #top-navigation .navbar-nav > li a {
+	  background: #f6f6f6;
+  	  padding-bottom: 27px;
+      padding-top: 27px;
+  }
 
 
-/* TOP NAVIGATION - COLLAPSE BUTTON */  
+/* HEADER - NAVIGATION - TOP AFFIX */
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index: 1000;
+}
+
+/* HEADER -  NAVIGATION - COLLAPSE BUTTON */  
 
   .navbar-toggle {
 	  background: #9a1e1e;
@@ -69,38 +165,15 @@
 /* HIGHLIGHT SECTION */
 
   #highlight .jumbotron {
-	  background: url("../template-images/campusgroups-highlight-bg.jpg") no-repeat center center fixed; 
+	  background: url("../template-images/campusgroups-highlight-bg.jpg") no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 	  color:#fff;
-	  height: 600px;
-	  padding: 60px 0 50px 0;
+	  height: 450px;
+	  /*padding: 60px 0 50px 0;*/
 	  width: 100%;
-  }
-  
-  .jumbotron h1 {
-	  font-weight: 600;
-	  letter-spacing:-1px;
-	  line-height: 55px;
-	  margin-bottom: 0;
-  }
-  
-  .jumbotron a {
-	  color: #fff;
-  }
-  
-  .jumbotron .subhead {
-	   font-size: 18px;
-	   line-height: 1em;
-	   margin-top: 0;
-	   text-transform:uppercase;
-  }
-  
-  .jumbotron h1, .jumbotron .subhead {
-	  position: relative;
-	  z-index:10;
   }
   
   .branding {
@@ -114,44 +187,7 @@
   }
 
 
-/* HIGHLIGHT LOGIN */
 
-  .logged-in {
-	  margin-top: 35px;
-  }
-  
-  .logged-in-group {
-	  background: url("../template-images/campusgroups-login-groups-bg.png");
-	  background-repeat: no-repeat;
-	  float: left;
-	  font-size: 12px;
-	  height: 70px;
-	  line-height: 14px;
-	  padding-top: 20px;
-	  padding-right: 8px;
-	  margin-right: 10px;
-	  margin-top: -15px;
-	  width: 80px; 
-	  text-align: center;
-	  text-transform: uppercase;
-  }
-  
-  .logged-in-group-number {
-	  font-size: 40px;
-  }
-  
-  .member-name {
-	  font-size: 24px;
-	  font-weight: 600;
-	  line-height: 22px;
-  }
-  
-  .logged-in .glyphicon {
-	  float: left;
-      font-size: 28px;
-      margin-right: 7px;
-      margin-top: 5px;
-  }
 
 /* MAIN-TOP SECTION */
 
@@ -159,6 +195,10 @@
 	  clear: both;
 	  positon: relative;
 	  margin-top: -500px;
+  }
+  
+  #main-top .glyphicon {
+	  color:#fff;
   }
   
   
@@ -213,7 +253,7 @@
 	  background: #b02f2f;
   }
   
-  #main-top .glyphicon {
+  #main-top .form-group .glyphicon-search {
 	  color: #999;
 	  margin-right: -20px;
 	  top: 9px;
@@ -222,6 +262,12 @@
   #main-top .form-group input {
 	  padding-left: 25px;
   }
+  
+  .btn-search, .btn-breadcrumb {
+	  display: none;
+  }
+  
+
 
 /* MAIN SECTION */
 
@@ -384,10 +430,22 @@ body {
  * --------------------------------------------------
  */
 
+@media screen and (min-width: 767px) {
+#search-container.collapse, #breadcrumb-container.collapse {
+	  display:block;
+  }
+}
+
 @media screen and (max-width: 1200px) {
 }
+
 @media screen and (max-width: 992px) { 
+  #top-navigation .navbar-nav > li a {
+	  padding: 27px 10px;
+  }
+  
 }
+
 @media screen and (max-width: 767px) {
   .row-offcanvas {
     position: relative;
@@ -424,13 +482,18 @@ body {
 
   .sidebar-offcanvas {
     position: absolute;
-    /* top: 0; */
-	top: 185px;
+    top: 0;
+	/* top: 185px; */
     width: 50%; /* 6 columns */
   }
   
-  #main, #main-top {
-	  margin-top: -150px;
+  #main-top {
+	  /*margin-top: -150px;*/
+	  margin-top: -80px;
+  }
+  
+  #main {
+	  margin-top: 0px;
   }
   
   .bottom-navigation .nav > li {
@@ -438,8 +501,65 @@ body {
   }
   
   #highlight .jumbotron {
-	  height: 400px;
+	  height: 300px;
   }
+  
+  #main-top .btn-search, #main-top .btn-breadcrumb {
+	  display: block;
+	  height: 50px;
+	  width: 50px;
+  }
+   
+  .btn-search .glyphicon, .btn-breadcrumb .glyphicon {
+	  font-size: 22px;
+	  padding-top: 7px;
+  }
+  
+  .row-offcanvas .btn-xs {
+	  margin-top: 20px;
+  }
+  
+  #breadcrumb-container, #search-container {
+	  background: #B02F2F;
+	  padding: 10px 5%;
+	  width: 100%;
+	  clear: both;
+  }
+  
+  #main-top .btn-breadcrumb.active, #main-top .btn-search.active {
+	  background: #B02F2F;
+  }
+  
+  #main-top .col-sm-6{
+	  padding: 0;
+	  margin: 0;
+  }
+  
+  .breadcrumb {
+	  padding: 0;
+  }
+  
+  #nav.affix {
+    position: relative;
+  }
+ 
+}
+
+@media screen and (max-width: 500px) {
+	
+	.portal-login-user {
+		display: none;
+	}
+	
+	.navbar-header h1 small {
+		display: none;
+	}
+
+ 
+}
+
+@media screen and (max-width: 400px) {
+  
 }
 
 
