@@ -25,7 +25,7 @@
           <img src="template-images/portal-branding.jpg" />
         </div>
         <div class="col-xs-9 pull-right text-right portal-login">
-          <span class="portal-login-user">Signed in as <a href="">Mikal Morello</a></span><button type="button" class="btn btn-default">Logout</button>
+          <span class="portal-login-user">Signed in as <a href="">Mikal Morello</a></span><button type="button" class="btn btn-default">My Services</button><button type="button" class="btn btn-default">Logout</button>
         </div>
       </div>
     </div>
@@ -34,12 +34,18 @@
   <div id="nav" data-spy="affix" data-offset-top="45">
     <div class="navbar navbar-default" role="navigation" >
       <div class="container">
-        <div class="col-xs-6">
+        <div class="col-xs-12 col-sm-6">
           <div class="navbar-header"> 
             <a href="#"><h1>Campus Groups <small>Helping Manage the BC Community</small></h1></a>
+            <!-- NAVIGATION COLLAPSE -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">    
+                <span class="sr-only">Toggle navigation</span>
+                <span class="glyphicon glyphicon-th-list"></span>
+              </button> 
+            <!-- NAVIGATION COLLAPSE END -->
           </div>
         </div>
-        <div class="col-xs-6">
+        <div class="col-xs-12 col-sm-6">
           <div id="top-navigation" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right" role="navigation">
               <li class="active"><a href="#">My Groups</a></li>
@@ -47,16 +53,7 @@
               <li><a href="#">Help</a></li>
             </ul>
           </div><!--/.nav-collapse -->
-          <!-- NAVIGATION COLLAPSE -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">    
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button> 
-          </div>
-          <!-- NAVIGATION COLLAPSE END -->
+
         </div>
       </div>
     </div>
@@ -78,8 +75,8 @@
    <!-- MAIN SECTION -->
     <div id="main-top">
       <div class="container">
-        <div class="row"> 
-          <a class="btn btn-search" data-toggle="collapse" data-target="#search-container"><span class="glyphicon-search glyphicon"></span></a> 
+        <div class="row">
+          <a class="btn btn-breadcrumb btn-sidebar-show" data-toggle="offcanvas" data-target="#breadcrumb-container">Show Sidebar</span></a> 
           <a class="btn btn-breadcrumb" data-toggle="collapse" data-target="#breadcrumb-container"><span class="glyphicon glyphicon-map-marker"></span></a>
           <div class="clearfix"></div>     
           <div class="col-md-12">
@@ -117,7 +114,7 @@
               </div>
            </div>
            <div class="col-xs-12 col-sm-9">
-             <!-- LEFT NAVIGATION COLLAPSE -->
+             <!-- LEFT NAVIGATION COLLAPSE 
              <p class="pull-left visible-xs">
                <button class="btn btn-primary btn-xs" data-toggle="offcanvas" type="button">Show Sidebar</button>
              </p>
@@ -153,9 +150,7 @@
             <ul class="nav navbar-nav" role="navigation">
               <li class="active"><a href="#">My Groups</a></li>
               <li><a href="#">Create a Group</a></li>
-              <li><a href="#">Browse Groups</a></li>
               <li><a href="#">Help</a></li>
-              <li><a href="#">Logout</a></li>
             </ul>
           </div>
         </div>
