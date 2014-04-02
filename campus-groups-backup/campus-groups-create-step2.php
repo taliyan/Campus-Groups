@@ -46,48 +46,43 @@
                <?php include( 'template-files/campus-groups-create-steps.php' ); ?>
              </div>
              <div class="content-main">
-               <h3>Step 1: Assign Group Properties</h3>
-               <form class="form-horizontal" role="form">
-                 <div class="form-group">
-                   <label for="inputPrefix" class="col-sm-2 control-label">Group Prefix</label>
-                   <div class="col-sm-10">
-                     <select class="form-control">
-                       <option>Prefix</option>
-                       <option>Prefix</option>
-                       <option>Prefix</option>
-                       <option>Prefix</option>
-                       <option>Prefix</option>
-                     </select>
-                   </div>
+               <h3>Step 2: Add Members to the Group</h3>
+               <p>Use the following options to adding members to the group:</p>
+               <!-- CREATE A GROUP OPTIONS -->
+               <!-- Nav tabs -->
+               <ul class="nav nav-tabs">
+                 <li class="active"><a href="#member" data-toggle="tab">Member Search</a></li>
+                 <li><a href="#upload" data-toggle="tab">File Upload</a></li>
+                 <li><a href="#paste" data-toggle="tab">Copy/Paste</a></li>
+                 <li><a href="#employee" data-toggle="tab">Employee Search</a></li>
+               </ul>
+               <!-- Tab panes -->
+               <div class="tab-content">
+                 <div class="tab-pane fade in active" id="member">
+                   <?php include( 'template-files/campus-groups-create-search.php' ); ?>
                  </div>
-                 <div class="form-group">
-                   <label for="inputGroupName" class="col-sm-2 control-label">Group Name</label>
-                   <div class="col-sm-10">
-                     <input type="password" class="form-control" id="inputPassword3" placeholder="Group Name">
-                   </div>
+                 <div class="tab-pane fade" id="upload">
+                   <?php include( 'template-files/campus-groups-create-upload.php' ); ?>
                  </div>
-                 <div class="form-group">
-                   <label for="inputDisplayName" class="col-sm-2 control-label">Display Name</label>
-                   <div class="col-sm-10">
-                     <input type="password" class="form-control" id="inputPassword3" placeholder="Display Name">
-                   </div>
+                 <div class="tab-pane fade" id="paste">
+                   <?php include( 'template-files/campus-groups-create-paste.php' ); ?>
                  </div>
-                 <div class="form-group">
-                   <label for="inputDisplayName" class="col-sm-2 control-label">Emailable</label>
-                   <div class="col-sm-10">
-                     <div class="checkbox">
-                       <label>
-                         <input type="checkbox">
-                       </label>
-                     </div>
-                   </div>
+                 <div class="tab-pane fade" id="employee">
+                   <?php include( 'template-files/campus-groups-create-employee.php' ); ?>
                  </div>
-                 <div class="form-group">
-                   <div class="col-sm-offset-2 col-sm-10">
-                     <a href="campus-groups-create-step2.php" type="submit" class="btn btn-default pull-right">Next Step</a>
-                   </div>
+               </div>
+               <div class="clearfix"></div>
+               <!-- CREATE A GROUP OPTIONS END -->
+               <!-- CREATE A GROUP BOTTOM -->
+               <div class="row ">
+                 <div class="col-sm-6">
+                   <button type="submit" class="btn btn-default pull-left">View Pending Members</button>
                  </div>
-               </form>
+                 <div class="col-sm-6">
+                   <button type="submit" class="btn btn-default pull-right">Next Step</button>
+                 </div>
+               </div>
+               <!-- CREATE A GROUP BOTTOM END -->
              </div>
            </div>
         </div>

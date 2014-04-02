@@ -274,7 +274,6 @@
 
   #main {
 	  positon: relative;
-	  margin-top: -500px;
   }
   
   #main .content-header {
@@ -294,7 +293,10 @@
 	  background: #fff;
 	  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.16);
 	  padding: 30px 5%;
+	 /* padding: 30px 0;*/
+	  
   }
+  
 
 /* MAIN SECTION - SUBHEADER*/  
 
@@ -315,6 +317,7 @@
   .content-subheader .create-steps .active a {
 	  color:#fff;
   }
+  
   
 
 /* MAIN SECTION - SIDEBAR */  
@@ -387,6 +390,12 @@
 
   .create-a-group .tab-content {
 	  background: #efefef;
+	  margin-bottom: 20px;
+	  min-height: 200px;
+  }
+  
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	   background: #efefef;
   }
 
 /* FOOTER SECTION */
@@ -430,6 +439,10 @@
 
   a:hover {
 	  text-decoration: none;
+  }
+  
+  .white-bg {
+	  background: #fff;
   }
 
 /*

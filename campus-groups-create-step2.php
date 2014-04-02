@@ -46,44 +46,51 @@
                <?php include( 'template-files/campus-groups-create-steps.php' ); ?>
              </div>
              <div class="content-main">
-               <h3>Step 2: Add Members to the Group</h3>
-               <p>Use the following options to adding members to the group:</p>
-               <!-- CREATE A GROUP OPTIONS -->
-               <!-- Nav tabs -->
-               <ul class="nav nav-tabs">
-                 <li class="active"><a href="#member" data-toggle="tab">Member Search</a></li>
-                 <li><a href="#upload" data-toggle="tab">File Upload</a></li>
-                 <li><a href="#paste" data-toggle="tab">Copy/Paste</a></li>
-                 <li><a href="#employee" data-toggle="tab">Employee Search</a></li>
-               </ul>
-               <!-- Tab panes -->
-               <div class="tab-content">
-                 <div class="tab-pane fade in active" id="member">
-                   <?php include( 'template-files/campus-groups-create-search.php' ); ?>
-                 </div>
-                 <div class="tab-pane fade" id="upload">
-                   <?php include( 'template-files/campus-groups-create-upload.php' ); ?>
-                 </div>
-                 <div class="tab-pane fade" id="paste">
-                   <?php include( 'template-files/campus-groups-create-paste.php' ); ?>
-                 </div>
-                 <div class="tab-pane fade" id="employee">
-                   <?php include( 'template-files/campus-groups-create-employee.php' ); ?>
-                 </div>
-               </div>
-               <div class="clearfix"></div>
-               <!-- CREATE A GROUP OPTIONS END -->
-               <!-- CREATE A GROUP BOTTOM -->
                <div class="row ">
-                 <div class="col-sm-6">
-                   <button type="submit" class="btn btn-default pull-left">View Pending Members</button>
-                 </div>
-                 <div class="col-sm-6">
-                   <button type="submit" class="btn btn-default pull-right">Next Step</button>
+                 <div class="col-sm-12">
+                   <h3>Step 2: Add Members to the Group</h3>
+                   <p>Use the following options to adding members to the group:</p>
                  </div>
                </div>
-               <!-- CREATE A GROUP BOTTOM END -->
+              <!-- CREATE A GROUP OPTIONS -->
+              <!-- Nav tabs -->
+              <div class="row ">
+               <div class="col-sm-12">
+                 <ul class="nav nav-tabs">
+                   <li class="active"><a href="#member" data-toggle="tab">Member Search</a></li>
+                   <li><a href="#upload" data-toggle="tab">File Upload</a></li>
+                   <li><a href="#paste" data-toggle="tab">Copy/Paste</a></li>
+                   <li><a href="#employee" data-toggle="tab">Employee Search</a></li>
+                 </ul>
+                 <!-- Tab panes -->
+                 <div class="tab-content">
+                   <div class="tab-pane fade in active" id="member">
+                     <?php include( 'template-files/campus-groups-create-search.php' ); ?>
+                   </div>
+                   <div class="tab-pane fade" id="upload">
+                     <?php include( 'template-files/campus-groups-create-upload.php' ); ?>
+                   </div>
+                   <div class="tab-pane fade" id="paste">
+                     <?php include( 'template-files/campus-groups-create-paste.php' ); ?>
+                   </div>
+                   <div class="tab-pane fade" id="employee">
+                     <?php include( 'template-files/campus-groups-create-employee.php' ); ?>
+                   </div>
+                 </div>
+               </div>
+             </div> 
+             <div class="clearfix"></div>
+             <!-- CREATE A GROUP OPTIONS END -->
+             <!-- CREATE A GROUP BOTTOM -->
+             <div class="row ">
+               <div class="col-sm-6">
+                 <button type="submit" class="btn btn-default pull-left">View Pending Members</button>
+               </div>
+               <div class="col-sm-6">
+                 <button type="submit" class="btn btn-default pull-right">Next Step</button>
+               </div>
              </div>
+             <!-- CREATE A GROUP BOTTOM END -->
            </div>
         </div>
       </div>
