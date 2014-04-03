@@ -2,23 +2,46 @@
 /* CSS Document */
 
 
-/* GENERAL*/
+/* DOCUMENT STRUCTURE */
+/*
+# GLOBAL STYLES
+# CONTENT SECTIONS
+## BANNER 
+## HEADER 
+## HIGHLIGHT
+## TOOLBAR
+## CONTENT 
+### CONTENT MAIN 
+### CONTENT SIDEBAR
+## FOOTER
+# GENERAL STYLES
+# BOOTSTRAP OVERRIDES
+# RESPONSIVE CODE
+*/
 
-  .white-bg {
-	  background:#fff;
-  }
-  
 
-/* BODY */
+
+/* # GLOBAL STYLES*/
 
   body {
 	  background: #f5f5f5;
 	  font-family: 'Source Sans Pro', sans-serif;
 	  padding-top: 0;
   }
+  
+  html, body {
+  	overflow-x: hidden; /* Prevent scroll on narrow devices */
+  }
+  
+    a:hover {
+	  text-decoration: none;
+  }
 
 
-/* PORTAL - BANNER */
+
+/* # CONTENT SECTIONS */
+
+/* ## BANNER SECTION*/
 
 	#portal-banner {
 		background: #580202;
@@ -68,7 +91,7 @@
 	
 	
 
-/* HEADER - BRANDING */
+/* ## HEADER SECTION - BRANDING */
 
   .navbar-header h1 {
 	  color:#111;
@@ -97,8 +120,8 @@
 	  
   }
 
-
-/* HEADER - NAVIGATION */
+ 
+/* ## HEADER SECTION - NAVIGATION */
 
   .navbar-default {
 	  background: rgba(250, 250, 250, .95);
@@ -135,16 +158,16 @@
   }
 
 
-/* HEADER - NAVIGATION - TOP AFFIX */
+/* ## HEADER SECTION - NAVIGATION - TOP AFFIX */
 
-#nav.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-	z-index: 1000;
-}
+  #nav.affix {
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	  z-index: 1000;
+  }
 
-/* HEADER -  NAVIGATION - COLLAPSE BUTTON */  
+/* ## HEADER SECTION -  NAVIGATION - COLLAPSE BUTTON */  
 
   .navbar-toggle {
 	  background: #9a1e1e;
@@ -160,10 +183,7 @@
   }
   
 
-
-
-
-/* HIGHLIGHT SECTION */
+/* ## HIGHLIGHT SECTION */
 
   #highlight .jumbotron {
 	  background: url("../template-images/campusgroups-highlight-bg.jpg") no-repeat center center fixed;
@@ -173,7 +193,8 @@
 		background-size: cover;
 	  color:#fff;
 	  height: 450px;
-	  /*padding: 60px 0 50px 0;*/
+	  padding-top: 60px;
+	  padding-bottom: 50px;
 	  width: 100%;
   }
   
@@ -190,20 +211,38 @@
 
 
 
-/* MAIN-TOP SECTION */
+/* ## TOOLBAR SECTION */
 
-  #main-top {
+  #toolbar {
 	  clear: both;
 	  positon: relative;
 	  margin-top: -500px;
   }
   
-  #main-top .glyphicon {
+  #toolbar .glyphicon {
 	  color:#fff;
   }
   
+  #toolbar .btn {
+	  background: #bc3a3a;
+	  border-radius: 0;
+	  border:none;
+	  color: #fff;
+	  float: left;
+	  height: 34px;
+	  text-transform: uppercase;
+  }
   
-/* MAIN-TOP SECTION - BREADCRUMB */  
+  #toolbar .btn:hover {
+	  background: #b02f2f;
+  }
+  
+  .btn-search, .btn-breadcrumb {
+	  display: none;
+  }
+  
+  
+/* ## TOOLBAR SECTION - BREADCRUMB */  
 
   .breadcrumb {
 	  background: none;
@@ -231,56 +270,28 @@
 	  opacity: 1;
   }
   
-  
-/* MAIN-TOP SECTION - SEARCH */
-
-  /*.form-control {
-	  border-radius: 0;
-	  border:none;
-	  float: right;
-  }*/
-  
-  #main-top .btn {
-	  background: #bc3a3a;
-	  border-radius: 0;
-	  border:none;
-	  color: #fff;
-	  float: left;
-	  height: 34px;
-	  text-transform: uppercase;
-  }
-  
-  #main-top .btn:hover {
-	  background: #b02f2f;
-  }
-  
-  #main-top .form-group .glyphicon-search {
-	  color: #999;
-	  margin-right: -20px;
-	  top: 9px;
-  }
-  
-  #main-top .form-group input {
-	  padding-left: 25px;
-  }
-  
-  .btn-search, .btn-breadcrumb {
-	  display: none;
-  }
-  
 
 
-/* MAIN SECTION */
+/* ## CONTENT SECTION */
 
-  #main {
+  #content {
 	  positon: relative;
   }
-  
-  #main .content-header {
+
+/* ## CONTENT SECTION - MAIN */
+  #content-main { 
+  }
+
+
+/* ## CONTENT SECTION - HEADER */
+
+
+  .block.content-header {
 	  background: #882224;
 	  color:#fff;
 	  clear: both;
-	  padding: 30px 5%;
+	  padding-top: 30px;
+	  padding-bottom: 30px;
   }
   
   .content-header h2 {
@@ -289,25 +300,18 @@
 	  text-transform: uppercase;
   }
   
-  .content-main {
-	  background: #fff;
-	  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.16);
-	  padding: 30px 5%;
-	 /* padding: 30px 0;*/
-	  
-  }
-  
 
-/* MAIN SECTION - SUBHEADER*/  
+/* ## CONTENT SECTION - SUBHEADER*/  
 
-    #main .content-subheader {
+  .block.content-subheader {
 	  background: #a52427;
 	  color:#fff;
 	  clear: both;
-	  padding: 10px 5%;
+	  padding-top: 10px;
+	  padding-top: 10px;
   }
   
-/* MAIN SECTION - SUBHEADER STEPS*/  
+/* ## CONTENT SECTION - SUBHEADER STEPS*/  
   
   .content-subheader .create-steps a {
 	  color:#882224; 
@@ -317,19 +321,30 @@
   .content-subheader .create-steps .active a {
 	  color:#fff;
   }
-  
+
+/* ## CONTENT SECTION - BODY*/
+
   
 
-/* MAIN SECTION - SIDEBAR */  
+/* ## CONTENT SECTION - FOOTER*/  
   
-  #sidebar .content-header {
+
+/* ## CONTENT SECTION - SIDEBAR */  
+  
+  #content-sidebar .content-header {
 	  background: #882224;
 	  color:#fff;
 	  clear: both;
-	  padding: 30px 5%;
+	  padding-top: 15px;
+	  padding-bottom: 15px;
   }
   
-  #sidebar .list-group-item:first-child, #sidebar .list-group-item:last-child {
+  #content-sidebar .content-header h3 {
+	  margin-top: 10px;
+	  margin-bottom: 10px;
+  }
+  
+  #content-sidebar .list-group-item:first-child, #content-sidebar .list-group-item:last-child {
 	  border-radius: 0;
   }
   
@@ -362,45 +377,40 @@
    }
    
    .left-navigation {
-	   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16);
    }
    
-   .sidebar-block {
-	  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16);
-	  color: #fff;
-	  margin-bottom: 20px;
-	  padding: 10px 5%;
-	  
-  }
   
-  .help.sidebar-block {
+  .help {
 	  background: #bc3a3a;
+	  color:#fff;
   }
   
-  .sidebar-block .glyphicon {
-	    color: #FFFFFF;
-        float: left;
-        font-size: 20px;
-        margin-bottom: -10px;
-        margin-right: 10px;
-   }
-  
-  
-/* MAIN SECTION - CREATE A GROUP */  
+  .add {
+	  background: #bc3a3a;
+	  color:#fff;
+  }
 
-  .create-a-group .tab-content {
+  
+  
+/* ## CONTENT SECTION - MAIN - CREATE A GROUP */  
+
+  .content-tabs .tab-content{
 	  background: #efefef;
 	  margin-bottom: 20px;
 	  min-height: 200px;
   }
   
+   .content-tabs .block.nav {
+	   padding-bottom: 0;
+   }
+  
   .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	   background: #efefef;
   }
 
-/* FOOTER SECTION */
+/* ## FOOTER SECTION */
 
-  #footer {
+  footer {
 	  background: #fff;
 	  margin-top: 100px;
 	  min-height: 50px;
@@ -435,28 +445,55 @@
   }
 
 
-/* GENERAL  */
+/* # GENERAL  */
 
-  a:hover {
-	  text-decoration: none;
-  }
   
   .white-bg {
 	  background: #fff;
   }
+  
+  .white-bg-shadow {
+	  background: #fff;
+	  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.16); 
+  }
+  
+  
+/* # GENERAL - CONTENT STRUCTURE */ 
 
-/*
- * Style tweaks
- * --------------------------------------------------
- */
-html,
-body {
-  overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
+  .block {
+	  padding: 15px 5%;
+  }
+  
+  .ad {
+	  margin-top: 15px;
+  }
+  
+  .ad .glyphicon {
+	    color: #FFFFFF;
+        float: left;
+        font-size: 20px;
+        margin-bottom: -10px;
+        margin-right: 10px;
+   }
+   
+   .margin-top {
+	   margin-top: 15px;
+   }
+   
+   .no-padding {
+	   padding: 0!;
+   }
+  
+
+/* # GENERAL ACCESSIBILITY */
+  
+  .skip-navigation {
+      .sr-only();
+   }
 
 
 
-/* BOOTSTRAP OVERRIDES */
+/* # BOOTSTRAP OVERRIDES */
   
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	  border: 0 none;
@@ -482,7 +519,7 @@ body {
  */
 
 @media screen and (min-width: 767px) {
-#search-container.collapse, #breadcrumb-container.collapse {
+ #breadcrumb-container.collapse {
 	  display:block;
   }
 }
@@ -498,15 +535,11 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .navbar .container, #main-top .container {
+	
+  #content-main.col-xs-12, #toolbar .col-xs-12 {
 	  padding-left: 0;
 	  padding-right: 0;
   }
-  
-  #top-navigation {
-	  padding-left: 0;
-	  padding-right: 0;
-  } 
   
   #top-navigation .navbar-nav > li {
 	  border-top: 0;
@@ -563,19 +596,15 @@ body {
     width: 50%; /* 6 columns */
   }
   
-  #main-top {
+  #toolbar {
 	  /*margin-top: -150px;*/
 	  margin-top: -80px;
   }
   
-  #main {
+  #content {
 	  margin-top: 0px;
   }
   
-  #main .container {
-	  padding-left: 0;
-	  padding-right: 0;
-  }
   
   .bottom-navigation .nav > li {
 	  display: inline-block;
@@ -585,7 +614,7 @@ body {
 	  height: 100px;
   }
   
-  #main-top .btn-search, #main-top .btn-breadcrumb {
+  #toolbar .btn-search, #toolbar .btn-breadcrumb {
 	  display: block;
 	  height: 50px;
 	  /*width: 50px;*/
@@ -607,11 +636,11 @@ body {
 	  clear: both;
   }
   
-  #main-top .btn-breadcrumb.active, #main-top .btn-search.active {
+  #toolbar .btn-breadcrumb.active, #toolbar .btn-search.active {
 	  background: #B02F2F;
   }
   
-  #main-top .col-sm-6{
+  #toolbar .col-sm-6{
 	  padding: 0;
 	  margin: 0;
   }

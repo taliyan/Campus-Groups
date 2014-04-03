@@ -10,10 +10,9 @@
   <!-- CONTENT SECTION -->
     <section id="content">
       <div class="container">
-        <div class="row row-offcanvas row-offcanvas-left">
-           <?php include( 'template-files/campus-groups-sidebar.php' ); ?>
+        <div class="row">
            <!-- CONTENT - MAIN SECTION -->
-           <div id="content-main" class="col-xs-12 col-sm-9">
+           <div id="content-main" class="col-xs-12">
              <div class="white-bg-shadow">
                <!-- CONTENT HEADER -->
                <div class="row">
