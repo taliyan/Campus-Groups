@@ -132,7 +132,7 @@
                                  <table class="table">
                                    <thead>
                                      <tr>
-                                       <th>#</th>
+                                       <th><input type="checkbox"></th>
                                        <th>Table heading</th>
                                        <th>Table heading</th>
                                        <th>Table heading</th>
@@ -141,7 +141,7 @@
                                    </thead>
                                    <tbody>
                                      <tr>
-                                       <td>1</td>
+                                       <td><input type="checkbox"></td>
                                        <td>Table cell</td>
                                        <td>Table cell</td>
                                        <td>Table cell</td>
@@ -163,7 +163,7 @@
                                        </td>
                                      </tr>
                                      <tr>
-                                       <td>2</td>
+                                       <td><input type="checkbox"></td>
                                        <td>Table cell</td>
                                        <td>Table cell</td>
                                        <td>Table cell</td>
@@ -185,7 +185,7 @@
                                        </td>
                                      </tr>
                                      <tr>
-                                       <td>3</td>
+                                       <td><input type="checkbox"></td>
                                        <td>Table cell</td>
                                        <td>Table cell</td>
                                        <td>Table cell</td>
@@ -207,7 +207,7 @@
                                        </td>
                                      </tr>
                                      <tr>
-                                       <td>4</td>
+                                       <td><input type="checkbox"></td>
                                        <td>Table cell</td>
                                        <td>Table cell</td>
                                        <td>Table cell</td>
@@ -229,7 +229,7 @@
                                        </td>
                                      </tr>
                                      <tr>
-                                       <td>5</td>
+                                       <td><input type="checkbox"></td>
                                        <td>Table cell</td>
                                        <td>Table cell</td>
                                        <td>Table cell</td>
@@ -313,6 +313,67 @@
                        </div>
                      </div>
                      <!-- ACCORDION EXAMPLE END -->
+                     <hr />
+                     <div class="row">
+                       <div class="col-xs-4">
+                         <!-- BUTTON STYLES -->
+                         <a class="btn btn-default btn-bc-red btn-xs">Button Name</a>
+                         <br /><br />
+                         <a class="btn btn-default btn-bc-red btn-sm">Button Name</a>
+                         <br /><br />
+                         <a class="btn btn-default btn-bc-red">Button Name</a>
+                         <br /><br />
+                         <a class="btn btn-default btn-bc-red btn-lg">Button Name</a>
+                         <!-- BUTTON STYLES END -->
+                       </div>
+                       <div class="col-xs-4">
+                         <!-- BUTTON STYLES -->
+                         <a class="btn btn-default btn-grey btn-xs">Button Name</a>
+                         <br /><br />
+                         <a class="btn btn-default btn-grey btn-sm">Button Name</a>
+                         <br /><br />
+                         <a class="btn btn-default btn-grey">Button Name</a>
+                         <br /><br />
+                         <a class="btn btn-default btn-grey btn-lg">Button Name</a>
+                         <!-- BUTTON STYLES END -->
+                       </div>
+                       <div class="col-xs-4">
+                         <!-- BUTTON STYLES -->
+                         <a class="btn btn-default btn-dark-grey btn-xs">Button Name</a>
+                         <br /><br />
+                         <a class="btn btn-default btn-dark-grey btn-sm">Button Name</a>
+                         <br /><br />
+                         <a class="btn btn-default btn-dark-grey">Button Name</a>
+                         <br /><br />
+                         <a class="btn btn-default btn-dark-grey btn-lg">Button Name</a>
+                         <!-- BUTTON STYLES END -->
+                       </div>
+                     </div>
+                     <hr />
+                     <!-- MODAL EXAMPLE -->
+                     <!-- Button trigger modal -->
+                     <button class="btn btn-primary btn-bc-red btn-lg" data-toggle="modal" data-target="#myModal">
+                       Launch demo modal
+                     </button> 
+                     <!-- Modal -->
+                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                       <div class="modal-dialog">
+                         <div class="modal-content">
+                           <div class="modal-header">
+                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                             <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                           </div>
+                           <div class="modal-body">
+                             ...
+                           </div>
+                           <div class="modal-footer">
+                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                             <button type="button" class="btn btn-bc-red">Save changes</button>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     <!-- MODAL EXAMPLE END -->
                    </div>
                  </div>
                </div>
