@@ -98,7 +98,16 @@
                                <input type="checkbox"> Check me out
                              </label>
                            </div>
-                           <button type="submit" class="btn btn-default">Submit</button>
+                           <div class="form-group">
+                             <select class="form-control">
+                               <option>1</option>
+                               <option>2</option>
+                               <option>3</option>
+                               <option>4</option>
+                               <option>5</option>
+                             </select>
+                          </div>
+                          <button type="submit" class="btn btn-default btn-bc-red">Submit</button>
                          </form>
                          <!-- FORM EXAMPLES END --> 
                        </div>
@@ -357,7 +366,7 @@
                      </button> 
                      <!-- Modal -->
                      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                       <div class="modal-dialog">
+                       <div class="modal-dialog modal-lg">
                          <div class="modal-content">
                            <div class="modal-header">
                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -374,6 +383,14 @@
                        </div>
                      </div>
                      <!-- MODAL EXAMPLE END -->
+                     <hr />
+                     <!-- ERROR MESSAGES -->
+                       <p class="bg-message bg-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                       <p class="bg-message bg-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+                       <p class="bg-message bg-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                       <p class="bg-message bg-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+                       <p class="bg-message bg-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+                     <!-- ERROR MESSAGES END -->
                    </div>
                  </div>
                </div>

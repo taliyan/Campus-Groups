@@ -1,5 +1,7 @@
-               <ul class="list-inline create-steps">
-                 <li><a href="campus-groups-create.php">Step 1</a></li>
-                 <li class="active"><a href="campus-groups-create-step2.php">Step 2</a></li>
-                 <li><a href="campus-groups-create-step3.php">Step 3</a></li>
-               </ul>
+<!-- CREATE A GROUP STEPS -->
+<ul class="list-inline create-steps">
+ <li><a href="campus-groups-createagroup.php">Step 1: Properties</a></li>
+ <li class="active"><a href="campus-groups-createqgroup-step2.php"><span class="glyphicon glyphicon-chevron-right"></span> Step 2: Add Members</a></li>
+ <li><a href="campus-groups-createagroup-step3.php"><span class="glyphicon glyphicon-chevron-right"></span> Step 3: Confirmation</a></li>
+</ul>
+<!-- CREATE A GROUP STEPS END --> 

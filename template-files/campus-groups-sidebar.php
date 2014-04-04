@@ -30,8 +30,8 @@
     <!-- SIDEBAR BOX -->
     <div class="row">
       <div class="col-xs-12">
-        <div class="block ad help">
-          <a href=""><span class="glyphicon glyphicon-question-sign"></span></a> Need help managing groups?
+        <div class="block ad add">
+          <a href=""><span class="glyphicon glyphicon glyphicon-plus"></span></a> Create a New Group
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@
     <!-- SIDEBAR BOX -->
     <div class="row">
       <div class="col-xs-12">
-        <div class="block ad add">
+        <div class="block ad help">
           <a href=""><span class="glyphicon glyphicon-question-sign"></span></a> Need help managing groups?
         </div>
       </div>

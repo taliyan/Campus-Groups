@@ -299,6 +299,7 @@
   
   .content-header h2 {
 	  font-size: 50px;
+	  margin-bottom: 0;
 	  margin-top: 0;
 	  text-transform: uppercase;
   }
@@ -310,20 +311,39 @@
 	  background: #a52427;
 	  color:#fff;
 	  clear: both;
-	  padding-top: 10px;
-	  padding-top: 10px;
+	  /*padding-top: 10px;
+	  padding-top: 10px;*/
   }
   
-/* ## CONTENT SECTION - SUBHEADER STEPS*/  
+/* ## CONTENT SECTION - SUBHEADER STEPS*/
+  .content-subheader ul {
+	 margin-bottom: 0;
+  }
+  
+  .content-subheader .create-steps li {
+	  width: 33%;
+  }
   
   .content-subheader .create-steps a {
 	  color:#882224; 
 	  font-size: 20px;
+	  text-transform: uppercase;
   }
   
   .content-subheader .create-steps .active a {
 	  color:#fff;
   }
+  
+  /*.content-subheader .create-steps li:after{ 
+   content: '\f0da';
+   font-family: FontAwesome;
+   font-weight: normal;
+   font-style: normal;
+   margin:0px 0px 0px 10px;
+   text-decoration:none;
+   }*/
+  
+  
 
 /* ## CONTENT SECTION - BODY*/
 
@@ -382,19 +402,51 @@
    .left-navigation {
    }
    
+   
+   .block.ad {
+	   padding-top: 20px;
+	   padding-bottom: 20px;
+   }
   
   .help {
 	  background: #bc3a3a;
 	  color:#fff;
+	  font-size: 15px;
   }
   
-  .add {
-	  background: #bc3a3a;
+  .add {  
+	  background: #d34242;
 	  color:#fff;
+	  font-size: 17px;
+	  text-transform: uppercase;
   }
 
   
-  
+/* ## CONTENT SECTION - MAIN - MY GROUPS */ 
+
+	.group-list thead {
+		background: #A52427;
+		color:#fff;
+		text-transform: uppercase;
+	}
+	
+	.group-list table > thead > tr > th{
+		padding: 20px 0;
+	}
+	
+	.block.group-list {
+		padding: 0;
+	}
+	
+	.group-list th:first-child, .group-list td:first-child  {
+		padding-left: 20px;
+	}
+	
+	.group-list .table > tbody > tr > td {
+		vertical-align: middle;
+	}
+
+
 /* ## CONTENT SECTION - MAIN - CREATE A GROUP */  
 
   .content-tabs .tab-content{
@@ -423,7 +475,35 @@
   }
   
   
-  
+/* ## CONTENT SECTION - HELP */  
+    
+	.help-tabs .tab-content {
+		padding-top: 40px;
+	}
+	
+	.help-tabs .panel {
+		border-radius: 0;
+	}
+	
+	.help-tabs .panel-heading {
+		background: #fff;
+		color:#bc3a3a;
+		padding: 20px 15px;
+		text-transform:uppercase;
+	}
+	
+	.help-tabs .nav-tabs > li {
+	  text-align: center;
+	  width: 25%;
+    }
+	
+	.panel-group .panel-heading + .panel-collapse .panel-body {
+    	border-top: 1px solid #EFEFEF;
+	}
+	
+	.help-tabs .panel-title .glyphicon {
+		margin-right: 5px;
+	}
 
 /* ## FOOTER SECTION */
 
@@ -502,7 +582,8 @@
    }
 
 
-/* # GENERAL - BUTTON */   
+/* # GENERAL - BUTTON */ 
+  
    .btn-bc-red, .btn-grey, .btn-dark-grey {
 	   border-radius: 2px;
 	   border: none;
@@ -543,12 +624,69 @@
    .btn-dark-grey:hover {
 	   background-color: #908f8f;
    }
+   
+/* # GENERAL - ERROR MESSAGES */    
+   .bg-message {
+	    padding: 10px;
+   }
 
 /* # GENERAL ACCESSIBILITY */
   
   .skip-navigation {
       .sr-only();
    }
+
+/* # GENERAL - TABLES */ 
+
+  .table > tbody > tr > td {
+	  border-color: #f9f9f9;
+  }
+
+
+/* # GENERAL - FORMS */ 
+
+  .form-control {
+	  border-radius: 0;
+  }
+
+  .bc-form label{
+	  color:#666;
+	  font-size: 18px;
+	  font-weight:400;
+	  text-transform: uppercase;
+	  vertical-align: middle;
+  }
+  
+  .bc-form {
+	  margin-top: 40px;
+  }
+  
+  .bc-form .form-control {
+	  display: inline-block;
+	  margin-bottom: 10px;
+  }
+  
+  .bc-form input, .bc-form select{
+	  background: #f7f7f7;
+  }
+  
+  .help-block {
+	  color:#bfbcbc;
+  }
+  
+  .form-control.bc-prefix{
+	  width: auto;
+  }
+  
+  .form-control.bc-display-name, .form-control.bc-group-name {
+	  max-width: 500px;
+  }
+  
+  .bc-form .glyphicon {
+	  color:#d34141;
+	  font-size: 24px;
+	  margin-left: 8px;
+  }
 
 
 
