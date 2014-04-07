@@ -625,6 +625,11 @@
 	   background-color: #908f8f;
    }
    
+   .btn-form-select {
+	   margin: 20px;
+	   
+   }
+   
 /* # GENERAL - ERROR MESSAGES */    
    .bg-message {
 	    padding: 10px;
@@ -682,7 +687,7 @@
 	  max-width: 500px;
   }
   
-  .bc-form .glyphicon {
+  .bc-form .glyphicon.glyphicon-question-sign{
 	  color:#d34141;
 	  font-size: 24px;
 	  margin-left: 8px;

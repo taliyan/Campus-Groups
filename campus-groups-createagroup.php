@@ -76,7 +76,7 @@
                          </div>
                          <div class="form-group">
                            <div class="col-sm-offset-3 col-sm-7 col-sm-offset-2">                              
-                             <button type="submit" class="btn btn-default btn-bc-red btn-lg pull-right">Next Step</button>
+                             <a href="campus-groups-createagroup-step2.php#steps" class="btn btn-default btn-bc-red btn-lg pull-right">Next Step</a>
                            </div>
                          </div>
                        </form>
