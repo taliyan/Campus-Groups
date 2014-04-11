@@ -436,6 +436,7 @@
 	.block.group-list {
 		padding-left: 0;
 		padding-right: 0;
+		padding-top: 0;
 	}
 	
 	.group-list th:first-child, .group-list td:first-child  {
@@ -551,6 +552,10 @@
     	background: #EFEFEF;
      }
 	 
+	  .modal-header {
+       border-bottom: none;
+     }
+	 
 	 .modal-header h4 {
 		 font-size: 24px;
 		 text-transform: uppercase;
@@ -571,6 +576,7 @@
 		 margin-top: 0;
 	 }
 	 
+	
 
 
 /* # GENERAL  */
@@ -584,6 +590,10 @@
 	  background: #fff;
 	  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.16); 
   }
+  
+   .grey-bg {
+	   background: none repeat scroll 0 0 #EFEFEF;
+   }
   
   
 /* # GENERAL - CONTENT STRUCTURE */ 
@@ -688,8 +698,10 @@
 
 /* # GENERAL - TABLES */ 
 
-  .table > tbody > tr > td {
+  .table > tbody > tr > td, .table > tbody > tr > th{
 	  border-color: #f9f9f9;
+	  color:#666;
+	  padding: 14px;
   }
 
 
@@ -712,10 +724,14 @@
 	  font-style: italic;
 	  text-transform: lowercase;
   }
-  
+ 
   .bc-form {
-	  margin-top: 40px;
+	  font-size: 16px;
   }
+  
+  /*.bc-form {
+	  margin-top: 40px;
+  }*/
   
   .bc-form .form-control {
 	  display: inline-block;
@@ -763,6 +779,14 @@
 	font-size: 16px;
 	font-style: italic;
     opacity: 1;
+   }
+   
+   .bc-form .white-bg h5 {
+	  color: #676566;
+	  font-size: 22px;
+	  padding-left: 20px;
+	  text-transform: uppercase;
+	  
    }
 
 /* # FORMAT INSTRUCTIONS */

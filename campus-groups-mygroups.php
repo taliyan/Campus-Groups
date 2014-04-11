@@ -15,159 +15,74 @@
            <!-- CONTENT - MAIN SECTION -->
            <div id="content-main" class="col-xs-12 col-sm-9">
              <div class="white-bg-shadow">
-               <!-- CONTENT HEADER -->
-               <div class="row">
-                 <div class="col-xs-12">
-                   <div class="block content-header">
-                     <h2>My Groups</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur.</p>
+               <form class="form-horizontal bc-form" role="form">
+                 <!-- CONTENT HEADER -->
+                 <div class="row">
+                   <div class="col-xs-12">
+                     <div class="block content-header">
+                       <h2>My Groups</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                     </div>
                    </div>
                  </div>
-               </div>
-               <!-- CONTENT HEADER END -->
-               <!-- CONTENT BODY -->
-               <div class="row">
-                 <div class="col-xs-12">
-                   <div class="block content-body group-list">
-                     <!-- TABLE --> 
-                     <div class="table-responsive">
-                       <table class="table">
-                         <thead>
-                           <tr>
-                             <th><input type="checkbox"></th>
-                             <th>Table heading</th>
-                             <th>Table heading</th>
-                             <th>Table heading</th>
-                             <th>Dropdown</th>
-                           </tr>
-                         </thead>
-                         <tbody>
-                           <tr>
-                             <td><input type="checkbox"></td>
-                             <td>Table cell</td>
-                             <td>Table cell</td>
-                             <td>Table cell</td>
-                             <td>
-                               <!-- DROP DOWN -->
-                               <div class="btn-group">
-                                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                   <span class="glyphicon glyphicon-chevron-down"></span>
-                                 </button>
-                                 <ul class="dropdown-menu" role="menu">
-                                   <li><a href="#">Action</a></li>
-                                   <li><a href="#">Another action</a></li>
-                                   <li><a href="#">Something else here</a></li>
-                                   <li class="divider"></li>
-                                   <li><a href="#">Separated link</a></li>
-                                 </ul>
-                               </div>
-                               <!-- DROP DOWN END -->
-                             </td>
-                           </tr>
-                           <tr>
-                             <td><input type="checkbox"></td>
-                             <td>Table cell</td>
-                             <td>Table cell</td>
-                             <td>Table cell</td>
-                             <td>
-                               <!-- DROP DOWN -->
-                               <div class="btn-group">
-                                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                   <span class="glyphicon glyphicon-chevron-down"></span>
-                                 </button>
-                                 <ul class="dropdown-menu" role="menu">
-                                   <li><a href="#">Action</a></li>
-                                   <li><a href="#">Another action</a></li>
-                                   <li><a href="#">Something else here</a></li>
-                                   <li class="divider"></li>
-                                   <li><a href="#">Separated link</a></li>
-                                 </ul>
-                               </div>
-                               <!-- DROP DOWN END -->
-                             </td>
-                           </tr>
-                           <tr>
-                             <td><input type="checkbox"></td>
-                             <td>Table cell</td>
-                             <td>Table cell</td>
-                             <td>Table cell</td>
-                             <td>
-                               <!-- DROP DOWN -->
-                               <div class="btn-group">
-                                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                   <span class="glyphicon glyphicon-chevron-down"></span>
-                                 </button>
-                                 <ul class="dropdown-menu" role="menu">
-                                   <li><a href="#">Action</a></li>
-                                   <li><a href="#">Another action</a></li>
-                                   <li><a href="#">Something else here</a></li>
-                                   <li class="divider"></li>
-                                   <li><a href="#">Separated link</a></li>
-                                 </ul>
-                               </div>
-                               <!-- DROP DOWN END -->
-                             </td>
-                           </tr>
-                           <tr>
-                             <td><input type="checkbox"></td>
-                             <td>Table cell</td>
-                             <td>Table cell</td>
-                             <td>Table cell</td>
-                             <td>
-                               <!-- DROP DOWN -->
-                               <div class="btn-group">
-                                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                   <span class="glyphicon glyphicon-chevron-down"></span>
-                                 </button>
-                                 <ul class="dropdown-menu" role="menu">
-                                   <li><a href="#">Action</a></li>
-                                   <li><a href="#">Another action</a></li>
-                                   <li><a href="#">Something else here</a></li>
-                                   <li class="divider"></li>
-                                   <li><a href="#">Separated link</a></li>
-                                 </ul>
-                               </div>
-                               <!-- DROP DOWN END -->
-                             </td>
-                           </tr>
-                           <tr>
-                             <td><input type="checkbox"></td>
-                             <td>Table cell</td>
-                             <td>Table cell</td>
-                             <td>Table cell</td>
-                             <td>
-                               <!-- DROP DOWN -->
-                               <div class="btn-group">
-                                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                   <span class="glyphicon glyphicon-chevron-down"></span>
-                                 </button>
-                                 <ul class="dropdown-menu" role="menu">
-                                   <li><a href="#">Action</a></li>
-                                   <li><a href="#">Another action</a></li>
-                                   <li><a href="#">Something else here</a></li>
-                                   <li class="divider"></li>
-                                   <li><a href="#">Separated link</a></li>
-                                 </ul>
-                               </div>
-                               <!-- DROP DOWN END -->
-                             </td>
-                           </tr>
-                         </tbody>
-                       </table>
-                    </div>
-                    <!-- TABLE END--> 
+                 <!-- CONTENT HEADER END -->
+                 <!-- CONTENT BODY -->
+                 <div class="row">
+                   <div class="col-xs-12">
+                     <div class="block content-body group-list">
+                       <!-- TABLE --> 
+                       <div class="table-responsive">
+                         <table class="table">
+                           <thead>
+                             <tr>
+                               <th><input type="checkbox"></th>
+                               <th>Group Name</th>
+                               <th>Display Name</th>
+                             </tr>
+                           </thead>
+                           <tbody>
+                             <tr>
+                               <td><input type="checkbox"></td>
+                               <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                               <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                             </tr>
+                             <tr>
+                               <td><input type="checkbox"></td>
+                               <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                               <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                             </tr>
+                             <tr>
+                               <td><input type="checkbox"></td>
+                               <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                               <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                             </tr>
+                             <tr>
+                               <td><input type="checkbox"></td>
+                               <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                               <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                             </tr>
+                             <tr>
+                               <td><input type="checkbox"></td>
+                               <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                               <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                             </tr>
+                           </tbody>
+                         </table>
+                      </div>
+                      <!-- TABLE END--> 
+                     </div>
                    </div>
                  </div>
-               </div>
-               <!-- CONTENT BODY END -->
-               <!-- CONTENT FOOTER -->
-               <div class="row">
-                 <div class="col-xs-12">
-                   <div class="block content-footer">
+                 <!-- CONTENT BODY END -->
+                 <!-- CONTENT FOOTER -->
+                 <div class="row">
+                   <div class="col-xs-12">
+                     <div class="block content-footer">
+                     </div>
                    </div>
                  </div>
-               </div>
-               <!-- CONTENT FOOTER END -->
+                 <!-- CONTENT FOOTER END -->
+               </form>
              </div>
            </div>
            <!-- CONTENT - MAIN SECTION END -->

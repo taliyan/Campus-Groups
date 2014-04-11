@@ -36,7 +36,7 @@
                <!-- CONTENT BODY -->
                <div class="row">
                  <div class="col-xs-12">
-                   <div class="block content-body">
+                   <div class="block content-section">
                      <h3>Step 1: Assign Group Properties</h3>
                        <!-- FORM EXAMPLES -->
                        <form class="form-horizontal bc-form" role="form">
