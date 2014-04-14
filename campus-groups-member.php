@@ -35,7 +35,7 @@
                          <!-- TABLE --> 
                          <div class="table-responsive">
                            <address>
-                             <table>
+                             <table class="table-details">
                                <tbody>
                                  <tr>
                                    <td class="td-label">Email:</td>

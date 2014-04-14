@@ -10,10 +10,9 @@
   <!-- CONTENT SECTION -->
     <section id="content">
       <div class="container">
-        <div class="row row-offcanvas row-offcanvas-left">
-           <?php include( 'template-files/campus-groups-sidebar.php' ); ?>
+        <div class="row">
            <!-- CONTENT - MAIN SECTION -->
-           <div id="content-main" class="col-xs-12 col-sm-9">
+           <div id="content-main" class="col-xs-12">
              <div class="white-bg-shadow">
                <!-- <form class="form-horizontal bc-form" role="form"> -->
                  <!-- CONTENT HEADER -->
@@ -59,11 +58,12 @@
                  <!-- CONTENT SECTION -->
                  <div class="row">
                    <div class="col-xs-12">
-                     <hr />
-                     <div class="block content-body">
-                       <div class="row">
-                         <div class="col-xs-12">
-                           <a class="btn btn-default btn-lg" id="toggle-all">Select All</a>
+                     <div class="block content-body grey-bg">
+                       <div class="block white-bg">
+                         <div class="row">
+                           <div class="col-xs-12">
+                             <a class="btn btn-default btn-lg" id="toggle-all">Select All</a>
+                           </div>
                          </div>
                        </div>
                      </div>
@@ -73,7 +73,8 @@
                  <!-- CONTENT SECTION -->
                  <div class="row">
                    <div class="col-xs-12">
-                     <div class="block content-body group-list">
+                     <div class="block content-body grey-bg">
+                       <div class="block white-bg group-list">
                          <!-- TABLE --> 
                          <div class="table-responsive">
                            <table class="table">
@@ -113,7 +114,8 @@
                              </tbody>
                            </table>
                         </div>
-                        <!-- TABLE END--> 
+                        <!-- TABLE END-->
+                      </div> 
                      </div>
                    </div>
                  </div>

@@ -10,10 +10,9 @@
   <!-- CONTENT SECTION -->
     <section id="content">
       <div class="container">
-        <div class="row row-offcanvas row-offcanvas-left">
-           <?php include( 'template-files/campus-groups-sidebar.php' ); ?>
+        <div class="row">
            <!-- CONTENT - MAIN SECTION -->
-           <div id="content-main" class="col-xs-12 col-sm-9">
+           <div id="content-main" class="col-xs-12">
              <div class="white-bg-shadow">
                <!-- CONTENT HEADER -->
                <a name="header"></a>
@@ -58,11 +57,11 @@
                <!-- CONTENT SECTION -->
                <div class="row">
                  <div class="col-xs-12">
-                   <hr />
-                   <div class="block content-body">
+                   <div class="block content-body grey-bg">
+                     <div class="block white-bg">
                        <!-- TABLE --> 
                        <div class="table-responsive">
-                         <table>
+                         <table class="table-details">
                            <tbody>
                              <tr>
                                <td class="td-label">Display Name:</td>
@@ -104,6 +103,7 @@
                          </table>
                       </div>
                       <!-- TABLE END--> 
+                    </div>
                    </div>
                  </div>
                </div>

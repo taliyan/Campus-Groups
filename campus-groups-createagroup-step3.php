@@ -41,7 +41,7 @@
                       <h3>Step 3: Confirmation</h3>
                       <p>Set group administrators and confirm group details.</p>
                       <h4>Group Details:</h4>
-                      <table>
+                      <table class="table-details">
                         <tr>
                           <td class="td-label">Group Prefix:</td>
                           <td>its.staff</td>

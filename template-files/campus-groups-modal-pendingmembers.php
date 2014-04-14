@@ -8,7 +8,7 @@
     <form class="form-horizontal bc-form" role="form">
       <div class="modal-content">
         <div class="modal-header-close">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">CLOSE &times;</button>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove-circle"></span>CLOSE</button>
         </div> 
         <div class="modal-header">
           <div class="row">

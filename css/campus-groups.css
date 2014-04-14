@@ -24,7 +24,8 @@
 /* # GLOBAL STYLES*/
 
   body {
-	  background: #f5f5f5;
+	  /*background: #f5f5f5;*/
+	  background: #FAF8EE;
 	  font-family: 'Source Sans Pro', sans-serif;
 	  padding-top: 0;
   }
@@ -192,6 +193,7 @@
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+      /*background: url("http://www.bc.edu/etc/designs/bc/alumni1/images/alumni_header_bg_shade_v3.jpg") no-repeat scroll 50% -140px #4D0204;*/
 	  color:#fff;
 	  height: 450px;
 	  padding-top: 60px;
@@ -459,6 +461,14 @@
    .content-tabs .block.nav {
 	   padding-bottom: 0;
    }
+   
+   .nav-tabs {
+    	border-bottom: 0 none;
+	}
+   
+   .nav-tabs > li {
+	   margin-bottom: 0;
+   }
   
   .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	   background: #efefef;
@@ -473,6 +483,10 @@
 	  font-size:20px;
 	  font-weight: 400;
 	  text-transform: uppercase;
+  }
+  
+  .nav > li > a:hover, .nav > li > a:focus {
+      margin-bottom: -1px;
   }
   
   /* TABS - MY GROUPS */
@@ -521,6 +535,16 @@
 
 
 /* ## CONTENT SECTION - PROFILE */  
+
+
+/* ## CONTENT SECTION - HOME */  
+
+	.circle {
+	  width:80px;
+	  height:80px;
+	  border-radius:40px; 
+	  background: #A52427;
+	}
 
 
 
@@ -586,6 +610,18 @@
 		 width:100%;
 	 }
 	 
+	 .modal-header-close .close {
+		 font-size: 18px;
+		 font-weight: 400;
+		 opacity: 1;
+		 padding: 8px 10px 10px 10px;
+		 text-shadow: none;
+	 }
+	 
+	 .modal-header-close .close .glyphicon.glyphicon-remove-circle {
+		 margin-right: 4px;
+	 }
+	 
 	 .modal-header-close button{ 
 	   color:#fff;
 	 }
@@ -593,6 +629,12 @@
 	 .modal-footer {
 		 margin-top: 0;
 	 }
+	 
+	 button .glyphicon{
+		 top: 3px;
+	 }
+	 
+	 
 	 
 	
 
@@ -615,6 +657,7 @@
    
    .red-bg {
 	   background: none repeat scroll 0 0 #a52427;
+	   color: #fff;
    }
    
    .bc-form .red-bg label, .bc-form .red-bg button  {
@@ -623,6 +666,9 @@
   
   
 /* # GENERAL - CONTENT STRUCTURE */ 
+  .container {
+    max-width: 1020px;
+  }
 
   .block {
 	  padding: 15px 5%;
@@ -737,6 +783,10 @@
   
   table {
 	  font-size: 16px;
+  }
+  
+  table.table-details td{
+	  padding: 3px 10px;
   }
   
   
