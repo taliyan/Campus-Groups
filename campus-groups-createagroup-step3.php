@@ -14,7 +14,7 @@
           <!-- CONTENT - MAIN SECTION -->
           <div id="content-main" class="col-xs-12">
             <div class="white-bg-shadow">
-              <form class="form-horizontal bc-form" role="form">
+              <!-- <form class="form-horizontal bc-form" role="form"> -->
                 <!-- CONTENT HEADER -->
                 <div class="row">
                   <div class="col-xs-12">
@@ -43,15 +43,15 @@
                       <h4>Group Details:</h4>
                       <table>
                         <tr>
-                          <td><strong>Group Prefix: </strong></td>
+                          <td class="td-label">Group Prefix:</td>
                           <td>its.staff</td>
                         </tr>
                         <tr>
-                          <td><strong>Group Name: </strong></td>
+                          <td class="td-label">Group Name:</td>
                           <td>Group Name</td>
                         </tr>
                         <tr>
-                          <td><strong>Display Name: </strong></td>
+                          <td class="td-label">Display Name:</td>
                           <td>Display Name</td>
                         </tr>
                       </table>
@@ -130,7 +130,7 @@
                   </div>
                 </div>
                 <!-- CONTENT FOOTER END -->
-              </form>
+              <!-- </form> -->
             </div>
           </div>
           <!-- CONTENT - MAIN SECTION END -->

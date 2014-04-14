@@ -7,6 +7,7 @@
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-accessibility.css">
   <link rel="stylesheet" href="css/campus-groups.css">
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300,400italic' rel='stylesheet' type='text/css'>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

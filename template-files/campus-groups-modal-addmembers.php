@@ -1,10 +1,10 @@
 <!-- ADD ADMINISTRATOR MODAL -->
-<button class="btn btn-default btn-bc-red btn-lg pull-right" data-toggle="modal" data-target="#addAdministrators">
-  <span class="glyphicon glyphicon-plus-sign"></span> Add Administrator
+<button class="btn btn-default btn-bc-red btn-lg pull-right" data-toggle="modal" data-target="#addMembers">
+  <span class="glyphicon glyphicon-plus-sign"></span> Add Members
 </button> 
-<div class="modal fade" id="addAdministrators" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="addMembers" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <!-- FORM -->
+    <!-- FORM --> 
     <form class="form-horizontal bc-form" role="form">
       <div class="modal-content">
         <div class="modal-header-close">
@@ -13,7 +13,7 @@
         <div class="modal-header">
           <div class="row">
             <div class="col-xs-12">
-              <h4 class="modal-title" id="myModalLabel">Add Administrators to the Group</h4>
+              <h4 class="modal-title" id="myModalLabel">Add Members to the Group</h4>
               <p>Use the following options for adding members to the group.</p>
             </div>
           </div>
@@ -92,13 +92,13 @@
               <a class="btn btn-default btn-lg btn-form-select btn-bc-red pull-right">Add Selected Members</a>
             </div>
           </div>                                
-        </div>                                
+        </div>                             
         <div class="modal-footer">
           <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Cancel</button>
           <a href="campus-groups-createagroup-step3.php" class="btn btn-bc-red btn-lg">Save and Confirm Members</a>
         </div>
       </div>
-    </form>
+    <!-- TEMPORARILY REMOVED </form> -->
     <!-- FORM END-->
   </div>
 </div>

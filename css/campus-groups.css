@@ -448,7 +448,7 @@
 	}
 
 
-/* ## CONTENT SECTION - MAIN - CREATE A GROUP */  
+/* ## CONTENT SECTION - TABS */  
 
   .content-tabs .tab-content{
 	  background: #efefef;
@@ -473,6 +473,19 @@
 	  font-size:20px;
 	  font-weight: 400;
 	  text-transform: uppercase;
+  }
+  
+  /* TABS - MY GROUPS */
+  
+    .content-subheader.nav-tabs > li.active > a, .content-subheader.nav-tabs > li.active > a:hover, .content-subheader.nav-tabs > li.active > a:focus {
+	   background: #fff;
+	   color:#111;
+  }
+  
+    .content-subheader.nav-tabs > li > a {
+	  background: #660000;
+	  color:#fff;
+	  border-bottom: 0;
   }
   
   
@@ -505,6 +518,11 @@
 	.help-tabs .panel-title .glyphicon {
 		margin-right: 5px;
 	}
+
+
+/* ## CONTENT SECTION - PROFILE */  
+
+
 
 /* ## FOOTER SECTION */
 
@@ -593,6 +611,14 @@
   
    .grey-bg {
 	   background: none repeat scroll 0 0 #EFEFEF;
+   }
+   
+   .red-bg {
+	   background: none repeat scroll 0 0 #a52427;
+   }
+   
+   .bc-form .red-bg label, .bc-form .red-bg button  {
+	   color:#fff;
    }
   
   
@@ -703,8 +729,25 @@
 	  color:#666;
 	  padding: 14px;
   }
+  
+  td.td-label {
+	  font-weight:600;
+	  text-transform:uppercase;
+  }
+  
+  table {
+	  font-size: 16px;
+  }
+  
+  
+/* # GENERAL - IMAGES */ 
 
-
+  img, object {
+	  max-width: 100%;
+	  width: auto\9; /* ie8 */
+  }
+  
+  
 /* # GENERAL - FORMS */ 
 
   .form-control {
@@ -788,6 +831,31 @@
 	  text-transform: uppercase;
 	  
    }
+   
+   /* # GENERAL - PAGINATION */ 
+   
+   ul.pagination {
+	   margin: 0;
+   }
+   
+   .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus   {
+	  background-color: #660000;
+	  border-color: #660000;
+   }
+   
+   .pagination > li > a, .pagination > li > span {
+	   color: #660000;
+   }
+   
+   .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+   	   color: #660000;
+	}
+	
+	.pager {
+	  margin: 0;
+	}
+	
+	
 
 /* # FORMAT INSTRUCTIONS */
   .format-instructions h5 {
