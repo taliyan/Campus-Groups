@@ -503,7 +503,13 @@
 	  color:#fff;
 	  border-bottom: 0;
   }
-  
+
+
+/* ## CONTENT SECTION - CREATE */  
+#membersearch {
+	min-height: 150px;
+}
+
   
 /* ## CONTENT SECTION - HELP */  
     
@@ -886,6 +892,10 @@
     margin-right: -30px;
   }
 
+  .bc-form .form-group.search {
+	  margin-bottom: 0;
+  }
+  
   .bc-form .form-group.search input {
     padding-left: 35px;
   }

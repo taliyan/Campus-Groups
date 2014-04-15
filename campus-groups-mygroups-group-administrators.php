@@ -75,7 +75,6 @@
                    <div class="col-xs-12">
                      <div class="block content-body grey-bg section-bottom">
                        <div class="block white-bg group-list">
-                         <!-- TABLE --> 
                          <div class="table-responsive">
                            <table class="table">
                              <thead>
@@ -114,7 +113,6 @@
                              </tbody>
                            </table>
                         </div>
-                        <!-- TABLE END-->
                       </div> 
                      </div>
                    </div>

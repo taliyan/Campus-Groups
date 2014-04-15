@@ -38,13 +38,11 @@
                <div class="row">
                  <div class="col-xs-12">
                    <div class="content-tabs help-tabs">
-                     <!-- Nav tabs -->
                      <ul class="block nav nav-tabs">
                        <li class="active"><a href="#faqs" data-toggle="tab">FAQS</a></li>
                        <li><a href="#tutorial" data-toggle="tab">Tutorials</a></li>
                        <li><a href="#support" data-toggle="tab">Support</a></li>
                      </ul>
-                     <!-- Tab panes -->
                      <div class="block tab-content">
                        <div class="tab-pane fade in active" id="faqs">
                          <!-- ACCORDION EXAMPLE -->
