@@ -280,6 +280,7 @@
   #content {
 	  positon: relative;
   }
+  
 
 /* ## CONTENT SECTION - MAIN */
   #content-main { 
@@ -472,6 +473,7 @@
   
   .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	   background: #efefef;
+	   border: 0;
   }
   
   .nav-tabs > li > a {
@@ -666,6 +668,21 @@
   
   
 /* # GENERAL - CONTENT STRUCTURE */ 
+  
+  
+  .block.section-top {
+	  padding-bottom: 0;
+  }
+  
+  .block.section-middle {
+	  padding-top: 0;
+	  padding-bottom: 0;
+  }
+  
+  .block.section-bottom {
+	  padding-top: 0;
+  }
+
   .container {
     max-width: 1020px;
   }
@@ -693,6 +710,12 @@
    .no-padding {
 	   padding: 0!;
    }
+   
+   .no-margin {
+	   margin: 0!;
+   }
+   
+   
 
 
 /* # GENERAL - BUTTON */ 

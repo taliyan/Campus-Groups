@@ -58,7 +58,7 @@
                  <!-- CONTENT SECTION -->
                  <div class="row">
                    <div class="col-xs-12">
-                     <div class="block content-body grey-bg">
+                     <div class="block content-body grey-bg section-top">
                        <div class="block white-bg">
                          <div class="row">
                            <div class="col-xs-12">
@@ -73,7 +73,7 @@
                  <!-- CONTENT SECTION -->
                  <div class="row">
                    <div class="col-xs-12">
-                     <div class="block content-body grey-bg">
+                     <div class="block content-body grey-bg section-bottom">
                        <div class="block white-bg group-list">
                          <!-- TABLE --> 
                          <div class="table-responsive">

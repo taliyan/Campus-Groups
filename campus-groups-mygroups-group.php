@@ -61,7 +61,7 @@
                  <!-- CONTENT SECTION -->
                  <div class="row">
                    <div class="col-xs-12">
-                     <div class="block content-body grey-bg">
+                     <div class="block content-body grey-bg section-top">
                        <div class="block white-bg">
                          <div class="row">
                            <div class="col-xs-6">
@@ -82,7 +82,7 @@
                  <!-- CONTENT SECTION -->
                  <div class="row">
                    <div class="col-xs-12">
-                     <div class="block content-body grey-bg">
+                     <div class="block content-body grey-bg section-middle">
                        <div class="block white-bg group-list">
                          <!-- TABLE --> 
                          <div class="table-responsive">
@@ -132,7 +132,7 @@
                  <!-- CONTENT SECTION-->
                  <div class="row">
                    <div class="col-xs-12">
-                     <div class="block content-body grey-bg">
+                     <div class="block content-body grey-bg section-middle">
                        <div class="block red-bg">
                          <div class="row">
                            <div class="col-xs-6 form-inline">
@@ -184,7 +184,7 @@
                  <!-- CONTENT SECTION -->
                  <div class="row">
                    <div class="col-xs-12">
-                     <div class="block content-body grey-bg text-right">
+                     <div class="block content-body grey-bg text-right section-bottom">
                        <a class="btn btn-default btn-lg btn-form-select btn-bc-red">Add Selected Members</a>
                      </div>
                    </div>

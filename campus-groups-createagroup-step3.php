@@ -72,40 +72,62 @@
                           <?php include( 'template-files/campus-groups-modal-addadministrators.php' ); ?> 
                         </div>
                       </div>
-                      <!-- SEARCH LISTING --> 
-                      <div id="searchlisting"> 
-                        <div class="block white-bg margin-top group-list">
+                    </div>
+                  </div>
+                </div>
+                <!-- CONTENT SECTION END-->
+                <!-- CONTENT SECTION -->
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="block grey-bg section-top">
+                      <div class="block white-bg">
                           <h5>Current Administrators</h5>
                           <a class="btn btn-default btn-lg btn-form-select" id="toggle-all">Select All</a>
-                          <div class="table-responsive table-add">
-                            <table class="table">
-                              <thead>
-                                <tr>
-                                  <th><input type="checkbox"></th>
-                                  <th>Member Name</th>
-                                  <th>Email</th>
-                                  <th>Title</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td><input type="checkbox"></td>
-                                  <td>Member Name</td>
-                                  <td>member@bc.edu</td>
-                                  <td>Interface Designer, Student Apps and Services</td>
-                                </tr>
-                                <tr>
-                                  <td><input type="checkbox"></td>
-                                  <td>Member Name</td>
-                                  <td>member@bc.edu</td>
-                                  <td>Interface Designer, Student Apps and Services</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- CONTENT SECTION END-->
+                <!-- CONTENT SECTION -->
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="block grey-bg section-middle">
+                      <div class="block white-bg group-list">
+                        <div class="table-responsive table-add">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th><input type="checkbox"></th>
+                                <th>Member Name</th>
+                                <th>Email</th>
+                                <th>Title</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Member Name</td>
+                                <td>member@bc.edu</td>
+                                <td>Interface Designer, Student Apps and Services</td>
+                              </tr>
+                              <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Member Name</td>
+                                <td>member@bc.edu</td>
+                                <td>Interface Designer, Student Apps and Services</td>
+                              </tr>
+                            </tbody>
+                          </table>
                         </div>
-                      </div> 
-                      <!-- SEARCH LISTING END -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- CONTENT SECTION END -->
+                <!-- CONTENT SECTION END -->
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="block grey-bg section-bottom">
                       <div class="row">
                         <div class="col-sm-12"> 
                           <a class="btn btn-default btn-lg btn-form-select btn-bc-red pull-right">Add Selected Members</a>
@@ -114,7 +136,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- CONTENT SECTION END -->
+                <!-- CONTENT SECTION END-->
                 <!-- CONTENT FOOTER -->
                 <div class="row">
                   <div class="col-xs-12">

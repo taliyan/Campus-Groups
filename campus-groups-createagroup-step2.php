@@ -55,7 +55,6 @@
                      <!-- Tab panes -->
                      <div class="block tab-content">
                        <div class="tab-pane fade in active" id="membersearch">
-                         <!-- FORM EXAMPLE -->
                          <form class="form-horizontal bc-form" role="form">
                            <div class="form-group search">
                              <div class="col-sm-7">   
@@ -128,7 +127,6 @@
                            </div>
                            <!-- SEARCH LISTING END --> 
                          </form>
-                         <!-- FORM EXAMPLE END --> 
                        </div>
                      </div>
                    </div>
