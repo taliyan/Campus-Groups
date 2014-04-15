@@ -26,54 +26,110 @@
                    </div>
                  </div>
                  <!-- CONTENT HEADER END -->
-                 <!-- CONTENT BODY -->
+                 <!-- CONTENT SECTION -->
                  <div class="row">
                    <div class="col-xs-12">
-                     <div class="block content-body group-list">
-                       <!-- TABLE --> 
-                       <div class="table-responsive">
-                         <table class="table">
-                           <thead>
-                             <tr>
-                               <th><input type="checkbox"></th>
-                               <th>Group Name</th>
-                               <th>Display Name</th>
-                             </tr>
-                           </thead>
-                           <tbody>
-                             <tr>
-                               <td><input type="checkbox"></td>
-                               <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
-                               <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
-                             </tr>
-                             <tr>
-                               <td><input type="checkbox"></td>
-                               <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
-                               <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
-                             </tr>
-                             <tr>
-                               <td><input type="checkbox"></td>
-                               <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
-                               <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
-                             </tr>
-                             <tr>
-                               <td><input type="checkbox"></td>
-                               <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
-                               <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
-                             </tr>
-                             <tr>
-                               <td><input type="checkbox"></td>
-                               <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
-                               <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
-                             </tr>
-                           </tbody>
-                         </table>
-                      </div>
-                      <!-- TABLE END--> 
+                     <div class="block content-body grey-bg">
+                       <div class="block white-bg group-list">
+                         <div class="table-responsive">
+                           <table class="table groups-list">
+                             <thead>
+                               <tr>
+                                 <th><input type="checkbox" class="checkall"></th>
+                                 <th>Group Name</th>
+                                 <th>Display Name</th>
+                               </tr>
+                             </thead>
+                             <tbody>
+                               <tr class="active green">
+                                 <td colspan="3">COURSE GROUPS HEADING</td>
+                               </tr>
+                               <tr class="green">
+                                 <td><input type="checkbox"></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                               </tr>
+                               <tr class="green">
+                                 <td><input type="checkbox"></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                               </tr>
+                               <tr class="green">
+                                 <td><input type="checkbox"></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                               </tr>
+                               <tr class="active white">
+                                 <td colspan="3">ADVISEE GROUPS HEADING</td>
+                               </tr>
+                               <tr class="white">
+                                 <td><input type="checkbox"></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                               </tr>
+                               <tr class="white">
+                                 <td><input type="checkbox"></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                               </tr>
+                               <tr class="white">
+                                 <td><input type="checkbox"></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                               </tr>
+                               <tr class="active black">
+                                 <td colspan="3">PERSONAL GROUPS HEADING</td>
+                               </tr>
+                               <tr class="black">
+                                 <td><input type="checkbox"></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                               </tr>
+                               <tr class="black">
+                                 <td><input type="checkbox"></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                               </tr>
+                               <tr class="black">
+                                 <td><input type="checkbox"></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                               </tr>
+                               <tr class="active red">
+                                 <td colspan="3">ADMINISTRATIVE GROUPS HEADING</td>
+                               </tr>
+                               <tr class="red">
+                                 <td><input type="checkbox"></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                               </tr>
+                               <tr class="red">
+                                 <td><input type="checkbox"></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                               </tr>
+                               <tr class="red">
+                                 <td><input type="checkbox"></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Group Name</a></td>
+                                 <td><a href="campus-groups-mygroups-group.php">Display Name</a></td>
+                               </tr>
+                             </tbody>
+                           </table>
+                         </div>
+                       </div>
                      </div>
                    </div>
                  </div>
-                 <!-- CONTENT BODY END -->
+                 <!-- CONTENT SECTION END -->
+                  <!-- CONTENT SECTION -->
+                 <div class="row">
+                   <div class="col-xs-12">
+                     <div class="block content-body grey-bg text-right">
+                       <a class="btn btn-default btn-lg btn-bc-red">Delete Groups</a>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- CONTENT SECTION END -->
                  <!-- CONTENT FOOTER -->
                  <div class="row">
                    <div class="col-xs-12">

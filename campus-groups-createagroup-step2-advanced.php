@@ -143,7 +143,7 @@
                            <table class="table">
                              <thead>
                                <tr>
-                                 <th><input type="checkbox"></th>
+                                 <th><input type="checkbox" class="checkall"></th>
                                  <th>Member Name</th>
                                  <th>Email</th>
                                  <th>Title</th>

@@ -1,5 +1,5 @@
 <!-- ADD ADMINISTRATOR MODAL -->
-<button class="btn btn-default btn-bc-red btn-lg pull-right" data-toggle="modal" data-target="#addAdministrators">
+<button class="btn btn-default btn-bc-red btn-lg" data-toggle="modal" data-target="#addAdministrators">
   <span class="glyphicon glyphicon-plus-sign"></span> Add Administrator
 </button> 
 <div class="modal fade" id="addAdministrators" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

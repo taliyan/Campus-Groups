@@ -47,10 +47,8 @@
                          <div class="col-xs-6">
                            <p><strong>View, manage, and edit members for this group.</strong><br />Questions? <a href="">Please consult the help section</a>.</p>
                          </div>
-                         <div class="col-xs-3">
-                           <a class="btn btn-default btn-lg btn-bc-red pull-right"><span class="glyphicon glyphicon-download-alt"></span> Export List</a>
-                         </div>
-                         <div class="col-xs-3">
+                         <div class="col-xs-6 text-right">
+                           <a class="btn btn-default btn-lg btn-bc-red"><span class="glyphicon glyphicon-download-alt"></span> Export List</a>
                            <?php include( 'template-files/campus-groups-modal-addmembers.php' ); ?> 
                          </div>
                        </div>
@@ -65,7 +63,7 @@
                        <div class="block white-bg">
                          <div class="row">
                            <div class="col-xs-6">
-                             <a class="btn btn-default btn-lg" id="toggle-all">Select All</a>
+                             <button class="btn btn-default btn-lg checkall" id="toggle-all">Select All</button>
                            </div>
                            <div class="col-xs-6">
                              <ul class="pager pull-right">
@@ -84,12 +82,11 @@
                    <div class="col-xs-12">
                      <div class="block content-body grey-bg section-middle">
                        <div class="block white-bg group-list">
-                         <!-- TABLE --> 
                          <div class="table-responsive">
                            <table class="table">
                              <thead>
                                <tr>
-                                 <th><input type="checkbox"></th>
+                                 <th><input type="checkbox" class="checkall"></th>
                                  <th>Member Name</th>
                                  <th>Email</th>
                                </tr>
@@ -123,7 +120,6 @@
                              </tbody>
                            </table>
                         </div>
-                        <!-- TABLE END--> 
                       </div>
                      </div>
                    </div>
@@ -184,8 +180,9 @@
                  <!-- CONTENT SECTION -->
                  <div class="row">
                    <div class="col-xs-12">
-                     <div class="block content-body grey-bg text-right section-bottom">
-                       <a class="btn btn-default btn-lg btn-form-select btn-bc-red">Add Selected Members</a>
+                     <div class="block content-body grey-bg text-right">
+                       <a class="btn btn-default btn-lg btn-bc-red">Share with Members</a>
+                       <a class="btn btn-default btn-lg btn-bc-red">Delete Members</a>
                      </div>
                    </div>
                  </div>

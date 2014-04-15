@@ -383,7 +383,7 @@
 	  text-transform: uppercase;
   }
   
-  .list-group-item:hover {
+  .list-group-item:hover{
 	  border-left: 6px solid #999;
 	  font-weight: bold;
   }
@@ -393,6 +393,14 @@
   }
   
   a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+      background: #fff;
+	  border: none;
+      border-left: 6px solid #882224;
+      color: #555;
+	  font-weight: 600;
+   }
+   
+     button.list-group-item.active, button.list-group-item.active:hover, button.list-group-item.active:focus {
       background: #fff;
 	  border: none;
       border-left: 6px solid #882224;
@@ -474,6 +482,10 @@
   .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	   background: #efefef;
 	   border: 0;
+  }
+  
+  .nav-tabs > li.active {
+    border-bottom: 1px solid #FFFFFF;
   }
   
   .nav-tabs > li > a {

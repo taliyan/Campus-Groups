@@ -15,13 +15,13 @@
       <div class="col-xs-12">
         <div class="block white-bg">
           <div class="list-group">
-            <a class="list-group-item" href="#">All Groups</a>
-            <a class="list-group-item" href="#">Course Groups</a>
-            <a class="list-group-item" href="#">Advisee Groups</a>
-            <a class="list-group-item  active" href="campus-groups-personal.php">Personal Groups</a>
-            <a class="list-group-item" href="#">Administrative Groups</a>
-            <a class="list-group-item" href="#">Shared Groups</a>
-            <a class="list-group-item" href="#">Word Processing Groups</a>
+            <button id="showAllButton" class="list-group-item">All Groups</button>
+            <button id="showGreenButton" class="list-group-item">Course Groups</button>
+            <button id="showWhiteButton" class="list-group-item">Advisee Groups</button>
+            <button id="showBlackButton" class="list-group-item">Personal Groups</button>
+            <button id="showRedButton" class="list-group-item">Administrative Groups</button>
+            <!--<a class="list-group-item" href="#">Shared Groups</a>
+            <a class="list-group-item" href="#">Word Processing Groups</a>-->
           </div>
         </div>
       </div>

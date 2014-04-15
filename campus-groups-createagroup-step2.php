@@ -84,7 +84,7 @@
                      <div class="col-xs-12">
                        <div class="block content-body grey-bg section-top"> 
                          <div class="block white-bg">
-                           <a class="btn btn-default btn-lg btn-form-select" id="toggle-all">Select All</a>
+                           <button class="btn btn-default btn-lg checkall" id="toggle-all">Select All</button>
                          </div>
                        </div>
                      </div>
@@ -99,13 +99,13 @@
                              <table class="table">
                                <thead>
                                  <tr>
-                                   <th><input type="checkbox"></th>
+                                   <th><input type="checkbox" class="checkall"></th>
                                    <th>Member Name</th>
                                    <th>Email</th>
                                    <th>Title</th>
                                  </tr>
                                </thead>
-                               <tbody>
+                               <tbody> 
                                  <tr>
                                    <td><input type="checkbox"></td>
                                    <td>Member Name</td>

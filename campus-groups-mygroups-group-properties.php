@@ -46,7 +46,7 @@
                        <div class="col-xs-6">
                          <p><strong>View and edit properties for this group.</strong><br />Questions? <a href="">Please consult the help section</a>.</p>
                        </div>
-                       <div class="col-xs-6">
+                       <div class="col-xs-6 text-right">
                          <?php  include( 'template-files/campus-groups-modal-editproperties.php' ); ?> 
                        </div>
                      </div>

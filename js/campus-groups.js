@@ -42,9 +42,19 @@
 	});
 
 // SELECT ALL CHECKBOX
-	$('#toggle-all').click(function() {
-   	   $('.table-add input[type="checkbox"]').prop('checked', true);
-	});
+	$(document).ready(function () {
+      $('.checkall').on('click', function () {
+        $(this).closest("table").find(':checkbox:visible').prop('checked', this.checked);
+      });
+    });
+	
+	$(document).ready(function () {
+      $('button#toggle-all').on('click', function () {
+        $("table:first-of-type").find(':checkbox').prop('checked', 'checked');
+      });
+    });
+	
+	
 	
 //JAVASCRIPT ENABLE LINK TO TAB
 	var hash = document.location.hash;
@@ -57,3 +67,56 @@
 	$('.nav-tabs a').on('shown', function (e) {
 		window.location.hash = e.target.hash.replace("#", "#" + prefix);
 	});
+	
+// FILTER GROUP RESULTS
+	var rows = $('table.groups-list tr');
+	var black = rows.filter('.black');
+	var white = rows.filter('.white');
+	var red = rows.filter('.red');
+	var green = rows.filter('.green');
+	
+	$('#showAllButton').click(function() {
+		black.show();
+		white.show();
+		red.show();
+		green.show();
+	});
+	
+	$('#showBlackButton').click(function() {
+		black.show();
+		white.hide();
+		red.hide();
+		green.hide();
+		$("table.groups-list").find(':checkbox').prop('checked', false);
+	});
+	
+	$('#showWhiteButton').click(function() {
+		white.show();
+		black.hide();
+		red.hide();
+		green.hide();
+		$("table.groups-list").find(':checkbox').prop('checked', false);
+	});
+	
+	$('#showRedButton').click(function() {
+		red.show();
+		black.hide();
+		white.hide();
+		green.hide();
+		$("table.groups-list").find(':checkbox').prop('checked', false);
+	});
+	
+	$('#showGreenButton').click(function() {
+		green.show();
+		black.hide();
+		white.hide();
+		red.hide();
+		$("table.groups-list").find(':checkbox').prop('checked', false);
+	});
+	
+	$("button.list-group-item").on("click", function(){
+    $(this)
+    .addClass("active")
+    .siblings()
+      .removeClass("active");
+    });

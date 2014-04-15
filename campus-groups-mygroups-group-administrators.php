@@ -47,7 +47,7 @@
                          <div class="col-xs-6">
                            <p><strong>View, manage, and edit administrators for this group.</strong><br />Questions? <a href="">Please consult the help section</a>.</p>
                          </div>
-                         <div class="col-xs-6">
+                         <div class="col-xs-6 text-right">
                            <?php  include( 'template-files/campus-groups-modal-addadministrators.php' ); ?> 
                          </div>
                        </div>
@@ -62,7 +62,7 @@
                        <div class="block white-bg">
                          <div class="row">
                            <div class="col-xs-12">
-                             <a class="btn btn-default btn-lg" id="toggle-all">Select All</a>
+                             <button class="btn btn-default btn-lg checkall" id="toggle-all">Select All</button>
                            </div>
                          </div>
                        </div>
@@ -79,7 +79,7 @@
                            <table class="table">
                              <thead>
                                <tr>
-                                 <th><input type="checkbox"></th>
+                                 <th><input type="checkbox" class="checkall"></th>
                                  <th>Administrator Name</th>
                                  <th>Email</th>
                                </tr>
@@ -114,6 +114,15 @@
                            </table>
                         </div>
                       </div> 
+                     </div>
+                   </div>
+                 </div>
+                 <!-- CONTENT SECTION END -->
+                  <!-- CONTENT SECTION -->
+                 <div class="row">
+                   <div class="col-xs-12">
+                     <div class="block content-body grey-bg text-right">
+                       <a class="btn btn-default btn-lg btn-bc-red">Delete Administrators</a>
                      </div>
                    </div>
                  </div>
