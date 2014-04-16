@@ -15,29 +15,30 @@
            <div id="content-main" class="col-xs-12">
              <div class="white-bg-shadow">
                <!-- CONTENT HEADER -->
+               <a name="header"></a>
                <div class="row">
                  <div class="col-xs-12">
                    <div class="block content-header">
-                     <h2>Create New Group</h2>
-                     <p>Instructions about starting a new group go here</p>
+                     <h2>Group Name</h2>
+                     <p>group.name</p>
                    </div>
                  </div>
                </div>
                <!-- CONTENT HEADER END -->
-               <!-- CONTENT SUBHEADER -->
+               <!-- CONTENT SECTION -->
                <div class="row">
                  <div class="col-xs-12">
-                   <div class="block content-subheader">
-                     <?php include( 'template-files/campus-groups-create-steps.php' ); ?>
+                   <div class="block red-bg">
+                     <a href="campus-groups-mygroups-group.php">< BACK TO GROUP</a>
                    </div>
                  </div>
                </div>
-               <!-- CONTENT SUBHEADER END -->
+               <!-- CONTENT SECTION END -->
                <!-- CONTENT SECTION -->
                <div class="row">
                  <div class="col-xs-12">
                    <div class="block content-section">
-                     <h3>Step 2: Add Members</h3>
+                     <h3>Add Members to the Group</h3>
                    </div>
                  </div>
                </div>
@@ -47,9 +48,9 @@
                  <div class="col-xs-12">
                    <div class="content-tabs">
                      <ul class="block nav nav-tabs">
-                       <li class="active"><a href="#steps">Member Search</a></li>
-                       <li><a href="campus-groups-createagroup-step2-copypaste.php#steps">Copy/Paste</a></li>
-                       <li><a href="campus-groups-createagroup-step2-advanced.php#steps">Adv. Employee Search</a></li>
+                       <li class="active"><a href="campus-groups-mygroups-group-addmembers.php#header">Member Search</a></li>
+                       <li><a href="campus-groups-mygroups-group-addmembers-copypaste.php#header">Copy/Paste</a></li>
+                       <li><a href="campus-groups-mygroups-group-addmembers-advanced.php#header">Adv. Employee Search</a></li>
                      </ul>
                    </div>
                  </div>
@@ -138,44 +139,52 @@
                                  </tr>
                                </tbody>
                              </table>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- CONTENT SECTION - PART END --> 
-                  <!-- CONTENT SECTION - PART --> 
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <div class="block content-body grey-bg section-middle"> 
-                        <a class="btn btn-default btn-lg btn-form-select btn-bc-red pull-right">Add Selected Members</a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- CONTENT SECTION - PART END --> 
-                 </div>
-               </div>
-               <!-- CONTENT SECTION END -->
-               </form>
-               <!-- CONTENT FOOTER -->
-               <div class="row">
-                 <div class="col-xs-12">
-                   <div class="block content-footer">
-                     <div class="row">
-                       <div class="col-xs-6">
-                         <?php include( 'template-files/campus-groups-modal-pendingmembers.php' ); ?>
-                       </div>
-                       <div class="col-xs-6">
-                         <?php include( 'template-files/campus-groups-modal-confirmmembers.php' ); ?>
+                           </div>
+                         </div>
                        </div>
                      </div>
                    </div>
-                 </div>
-               </div>
-               <!-- CONTENT FOOTER END -->
-             </div>
-           </div>
-           <!-- CONTENT - MAIN SECTION END -->
+                   <!-- CONTENT SECTION - PART END --> 
+                   <!-- CONTENT SECTION - PART --> 
+                   <div class="row">
+                     <div class="col-xs-12">
+                       <div class="block content-body grey-bg section-middle"> 
+                         <a class="btn btn-default btn-lg btn-form-select btn-bc-red pull-right">Add Selected Members</a>
+                       </div>
+                     </div>
+                   </div>
+                   <!-- CONTENT SECTION - PART END --> 
+                </div>
+              </div>
+              <!-- CONTENT SECTION END -->
+              </form>
+              <!-- CONTENT SECTION -->
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="block content-footer">
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <?php include( 'template-files/campus-groups-modal-pendingmembers.php' ); ?>
+                      </div>
+                      <div class="col-xs-6">
+                        <?php include( 'template-files/campus-groups-modal-savemembers.php' ); ?>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- CONTENT SECTION END -->
+              <!-- CONTENT SECTION -->
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="block content-body white-bg">
+                  </div>
+                </div>
+              </div>
+              <!-- CONTENT SECTION END -->
+            </div>
+          </div>
+          <!-- CONTENT - MAIN SECTION END -->
         </div>
       </div>
     </section>

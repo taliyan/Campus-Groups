@@ -49,7 +49,7 @@
                          </div>
                          <div class="col-xs-6 text-right">
                            <a class="btn btn-default btn-lg btn-bc-red"><span class="glyphicon glyphicon-download-alt"></span> Export List</a>
-                           <?php include( 'template-files/campus-groups-modal-addmembers.php' ); ?> 
+                           <a href="campus-groups-mygroups-group-addmembers.php" class="btn btn-default btn-bc-red btn-lg"><span class="glyphicon glyphicon-plus-sign"></span> Add Members</a> 
                          </div>
                        </div>
                      </div>

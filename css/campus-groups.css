@@ -680,6 +680,10 @@
 	   color: #fff;
    }
    
+   .red-bg a{
+	   color:#fff;
+   }
+   
    .bc-form .red-bg label, .bc-form .red-bg button  {
 	   color:#fff;
    }
