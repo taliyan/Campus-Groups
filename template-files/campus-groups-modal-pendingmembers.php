@@ -22,65 +22,74 @@
           </div>
         </div>
         <div class="modal-body">
-          <div class="block white-bg-shadow group-list">
-            <div class="row">
-              <div class="col-sm-3"> 
-                <a class="btn btn-default btn-lg btn-form-select" id="toggle-all">Select All</a>
+          <!-- MODAL SECTION -->
+          <div class="row">
+            <div class="col-sm-12"> 
+              <div class="block white-bg">
+                <a class="btn btn-default btn-lg checkall" id="toggle-all">Select All</a>
               </div>
-              <div class="col-sm-9">
+              <!--<div class="col-sm-9">
                 <p><a href="campus-groups-help.php" class="help-message"><span class="glyphicon glyphicon-warning-sign"></span>
 Need Help? View the topics relating to adding members to a group</a></p>
-              </div>
+              </div>-->
             </div>
-            <div class="table-responsive table-add">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th><input type="checkbox"></th>
-                    <th>Member Name</th>
-                    <th>Email</th>
-                    <th>Title</th>
-                    <th>Remove</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><input type="checkbox"></td>
-                    <td><a href="">Member Name</a></td>
-                    <td>member@bc.edu</td>
-                    <td>Interface Designer, Student Apps and Services</td>
-                    <td><a><span class="glyphicon glyphicon-remove-circle"></span></a></td>
-                  </tr>
-                  <tr>
-                    <td><input type="checkbox"></td>
-                    <td><a href="">Member Name</a></td>
-                    <td>member@bc.edu</td>
-                    <td>Interface Designer, Student Apps and Services</td>
-                    <td><a><span class="glyphicon glyphicon-remove-circle"></span></a></td>
-                  </tr>
-                  <tr>
-                    <td><input type="checkbox"></td>
-                    <td><a href="">Member Name</a></td>
-                    <td>member@bc.edu</td>
-                    <td>Interface Designer, Student Apps and Services</td>
-                    <td><a><span class="glyphicon glyphicon-remove-circle"></span></a></td>
-                  </tr>
-                  <tr>
-                    <td><input type="checkbox"></td>
-                    <td><a href="">Member Name</a></td>
-                    <td>member@bc.edu</td>
-                    <td>Interface Designer, Student Apps and Services</td>
-                    <td><a><span class="glyphicon glyphicon-remove-circle"></span></a></td>
-                  </tr>
-                  <tr>
-                    <td><input type="checkbox"></td>
-                    <td><a href="">Member Name</a></td>
-                    <td>member@bc.edu</td>
-                    <td>Interface Designer, Student Apps and Services</td>
-                    <td><a><span class="glyphicon glyphicon-remove-circle"></span></a></td>
-                  </tr>
-                </tbody>
-              </table>
+          </div>
+          <!-- MODAL SECTION END-->
+          <!-- MODAL SECTION -->
+          <div class="row">
+            <div class="col-sm-12"> 
+              <div class="block white-bg group-list">
+                <div class="table-responsive table-add">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th><input type="checkbox" class="checkall"></th>
+                        <th>Member Name</th>
+                        <th>Email</th>
+                        <th>Title</th>
+                        <th>Remove</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><input type="checkbox"></td>
+                        <td><a href="">Member Name</a></td>
+                        <td>member@bc.edu</td>
+                        <td>Interface Designer, Student Apps and Services</td>
+                        <td><a><span class="glyphicon glyphicon-remove-circle"></span></a></td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox"></td>
+                        <td><a href="">Member Name</a></td>
+                        <td>member@bc.edu</td>
+                        <td>Interface Designer, Student Apps and Services</td>
+                        <td><a><span class="glyphicon glyphicon-remove-circle"></span></a></td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox"></td>
+                        <td><a href="">Member Name</a></td>
+                        <td>member@bc.edu</td>
+                        <td>Interface Designer, Student Apps and Services</td>
+                        <td><a><span class="glyphicon glyphicon-remove-circle"></span></a></td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox"></td>
+                        <td><a href="">Member Name</a></td>
+                        <td>member@bc.edu</td>
+                        <td>Interface Designer, Student Apps and Services</td>
+                        <td><a><span class="glyphicon glyphicon-remove-circle"></span></a></td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox"></td>
+                        <td><a href="">Member Name</a></td>
+                        <td>member@bc.edu</td>
+                        <td>Interface Designer, Student Apps and Services</td>
+                        <td><a><span class="glyphicon glyphicon-remove-circle"></span></a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+               </div>
+             </div>
            </div>
          </div>
          <div class="row">

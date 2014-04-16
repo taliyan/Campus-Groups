@@ -48,9 +48,15 @@
       });
     });
 	
+//	$(document).ready(function () {
+//      $('#toggle-all').on('click', function () {
+//        $("table:first-of-type").find(':checkbox').prop('checked', 'checked');
+//      });
+//    });
+	
 	$(document).ready(function () {
-      $('button#toggle-all').on('click', function () {
-        $("table:first-of-type").find(':checkbox').prop('checked', 'checked');
+      $('.checkall').on('click', function () {
+        $(this).closest(".row").next(".row").find(':checkbox').prop('checked', 'checked');
       });
     });
 	

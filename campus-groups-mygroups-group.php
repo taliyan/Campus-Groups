@@ -60,10 +60,11 @@
                  <div class="row">
                    <div class="col-xs-12">
                      <div class="block content-body grey-bg section-top">
-                       <div class="block white-bg">
-                         <div class="row">
+                       <div class="block white-bg"> 
+                         <a class="btn btn-default btn-lg checkall" id="toggle-all">Select All</a>
+                         <!--<div class="row">
                            <div class="col-xs-6">
-                             <button class="btn btn-default btn-lg checkall" id="toggle-all">Select All</button>
+                             <a class="btn btn-default btn-lg checkall" id="toggle-all">Select All</a>
                            </div>
                            <div class="col-xs-6">
                              <ul class="pager pull-right">
@@ -71,7 +72,7 @@
                                <li><a href="#">Next</a></li>
                              </ul>
                            </div>
-                         </div>
+                         </div>-->
                        </div>
                      </div>
                    </div>

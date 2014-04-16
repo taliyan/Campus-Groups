@@ -48,7 +48,7 @@
                            <p><strong>View, manage, and edit administrators for this group.</strong><br />Questions? <a href="">Please consult the help section</a>.</p>
                          </div>
                          <div class="col-xs-6 text-right">
-                           <?php  include( 'template-files/campus-groups-modal-addadministrators.php' ); ?> 
+                           <?php  include( 'template-files/campus-groups-modal-group-addadministrators.php' ); ?> 
                          </div>
                        </div>
                      </div>
@@ -60,11 +60,7 @@
                    <div class="col-xs-12">
                      <div class="block content-body grey-bg section-top">
                        <div class="block white-bg">
-                         <div class="row">
-                           <div class="col-xs-12">
-                             <button class="btn btn-default btn-lg checkall" id="toggle-all">Select All</button>
-                           </div>
-                         </div>
+                         <a class="btn btn-default btn-lg checkall" id="toggle-all">Select All</a>
                        </div>
                      </div>
                    </div>

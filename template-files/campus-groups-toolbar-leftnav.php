@@ -4,6 +4,7 @@
     <div class="row">
       <div class="col-xs-12">
         <div class="">
+          <a class="btn btn-breadcrumb btn-sidebar-show" data-toggle="offcanvas" data-target="#breadcrumb-container">Show Sidebar</a> 
           <a class="btn btn-breadcrumb" data-toggle="collapse" data-target="#breadcrumb-container"><span class="glyphicon glyphicon-map-marker"></span></a>
         </div>
       </div>

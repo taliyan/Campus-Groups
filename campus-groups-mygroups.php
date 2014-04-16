@@ -6,7 +6,7 @@
   <?php include( 'template-files/campus-groups-banner.php' ); ?>
   <?php include( 'template-files/campus-groups-header.php' ); ?>
   <?php include( 'template-files/campus-groups-highlight.php' ); ?>
-  <?php include( 'template-files/campus-groups-toolbar.php' ); ?>
+  <?php include( 'template-files/campus-groups-toolbar-leftnav.php' ); ?>
   <!-- CONTENT SECTION -->
     <section id="content">
       <div class="container">
@@ -26,6 +26,15 @@
                    </div>
                  </div>
                  <!-- CONTENT HEADER END -->
+                 <!-- CONTENT SECTION -->
+                 <div class="row">
+                   <div class="col-xs-12">
+                     <div class="block content-body">
+                       <p>Click on the groups below to view and manage group properties.</p>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- CONTENT SECTION END -->
                  <!-- CONTENT SECTION -->
                  <div class="row">
                    <div class="col-xs-12">

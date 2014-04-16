@@ -128,7 +128,7 @@
                    <div class="col-xs-12">
                      <div class="block content-body grey-bg section-top">         
                        <div class="block white-bg">
-                         <a class="btn btn-default btn-lg btn-form-select" id="toggle-all">Select All</a>
+                         <a class="btn btn-default btn-lg checkall" id="toggle-all">Select All</a>
                        </div>
                      </div>
                    </div>

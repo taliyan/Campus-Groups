@@ -31,7 +31,7 @@
     <div class="row">
       <div class="col-xs-12">
         <div class="block ad add">
-          <a href=""><span class="glyphicon glyphicon glyphicon-plus"></span></a> Create a New Group
+          <a href="campus-groups-createagroup.php"><span class="glyphicon glyphicon glyphicon-plus"></span> Create a New Group</a>
         </div>
       </div>
     </div>
@@ -40,7 +40,7 @@
     <div class="row">
       <div class="col-xs-12">
         <div class="block ad help">
-          <a href=""><span class="glyphicon glyphicon-question-sign"></span></a> Need help managing groups?
+          <a href="campus-groups-help.php"><span class="glyphicon glyphicon-question-sign"></span> Need help managing groups?</a>
         </div>
       </div>
     </div>

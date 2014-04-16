@@ -6,7 +6,7 @@
   <?php include( 'template-files/campus-groups-banner.php' ); ?>
   <?php include( 'template-files/campus-groups-header.php' ); ?>
   <?php include( 'template-files/campus-groups-highlight.php' ); ?>
-  <?php include( 'template-files/campus-groups-toolbar.php' ); ?>
+  <?php include( 'template-files/campus-groups-toolbar-home.php' ); ?>
   <!-- CONTENT SECTION -->
     <section id="content">
       <div class="container">

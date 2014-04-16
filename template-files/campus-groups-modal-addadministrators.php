@@ -4,7 +4,6 @@
 </button> 
 <div class="modal fade" id="addAdministrators" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <!-- FORM -->
     <form class="form-horizontal bc-form" role="form">
       <div class="modal-content">
         <div class="modal-header-close">
@@ -36,55 +35,61 @@
               <button id="clear-search" type="button" class="btn btn-no-style" data-toggle="collapse" data-target="#searchlisting">Clear Search</button>
             </div>
           </div>
-          <div class="block white-bg-shadow group-list">
-            <div class="row">
-              <div class="col-sm-12"> 
-                <a class="btn btn-default btn-lg btn-form-select" id="toggle-all">Select All</a>
+          <div class="row">
+            <div class="col-sm-12"> 
+              <div class="block white-bg">
+                <a class="btn btn-default btn-lg checkall" id="toggle-all">Select All</a>
               </div>
             </div>
-            <div class="table-responsive table-add">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th><input type="checkbox"></th>
-                    <th>Member Name</th>
-                    <th>Email</th>
-                    <th>Title</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><input type="checkbox"></td>
-                    <td><a href="">Member Name</a></td>
-                    <td>member@bc.edu</td>
-                    <td>Interface Designer, Student Apps and Services</td>
-                  </tr>
-                  <tr>
-                    <td><input type="checkbox"></td>
-                    <td><a href="">Member Name</a></td>
-                    <td>member@bc.edu</td>
-                    <td>Interface Designer, Student Apps and Services</td>
-                  </tr>
-                  <tr>
-                    <td><input type="checkbox"></td>
-                    <td><a href="">Member Name</a></td>
-                    <td>member@bc.edu</td>
-                    <td>Interface Designer, Student Apps and Services</td>
-                  </tr>
-                  <tr>
-                    <td><input type="checkbox"></td>
-                    <td><a href="">Member Name</a></td>
-                    <td>member@bc.edu</td>
-                    <td>Interface Designer, Student Apps and Services</td>
-                  </tr>
-                  <tr>
-                    <td><input type="checkbox"></td>
-                    <td><a href="">Member Name</a></td>
-                    <td>member@bc.edu</td>
-                    <td>Interface Designer, Student Apps and Services</td>
-                  </tr>
-                </tbody>
-              </table>
+          </div>
+          <div class="row">
+            <div class="col-sm-12"> 
+              <div class="block white-bg group-list">
+                <div class="table-responsive table-add">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th><input type="checkbox" class="checkall"></th>
+                        <th>Member Name</th>
+                        <th>Email</th>
+                        <th>Title</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><input type="checkbox"></td>
+                        <td><a href="">Member Name</a></td>
+                        <td>member@bc.edu</td>
+                        <td>Interface Designer, Student Apps and Services</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox"></td>
+                        <td><a href="">Member Name</a></td>
+                        <td>member@bc.edu</td>
+                        <td>Interface Designer, Student Apps and Services</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox"></td>
+                        <td><a href="">Member Name</a></td>
+                        <td>member@bc.edu</td>
+                        <td>Interface Designer, Student Apps and Services</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox"></td>
+                        <td><a href="">Member Name</a></td>
+                        <td>member@bc.edu</td>
+                        <td>Interface Designer, Student Apps and Services</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox"></td>
+                        <td><a href="">Member Name</a></td>
+                        <td>member@bc.edu</td>
+                        <td>Interface Designer, Student Apps and Services</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row">
@@ -99,7 +104,6 @@
         </div>
       </div>
     </form>
-    <!-- FORM END-->
   </div>
 </div>
 <!-- ADD ADMINISTRATOR MODAL END -->

@@ -55,7 +55,7 @@
                  </div>
                </div>
                <!-- CONTENT TABS END-->
-               <form class="form-horizontal bc-form" role="form">
+               <form class="form-horizontal bc-form" role="form" method="get">
                <!-- CONTENT SECTION -->
                <div class="row">
                  <div class="col-xs-12">
@@ -84,7 +84,7 @@
                      <div class="col-xs-12">
                        <div class="block content-body grey-bg section-top"> 
                          <div class="block white-bg">
-                           <button class="btn btn-default btn-lg checkall" id="toggle-all">Select All</button>
+                           <a class="btn btn-default btn-lg checkall" id="toggle-all">Select All</a>
                          </div>
                        </div>
                      </div>

@@ -14,7 +14,6 @@
           <!-- CONTENT - MAIN SECTION -->
           <div id="content-main" class="col-xs-12">
             <div class="white-bg-shadow">
-              <!-- <form class="form-horizontal bc-form" role="form"> -->
                 <!-- CONTENT HEADER -->
                 <div class="row">
                   <div class="col-xs-12">
@@ -65,10 +64,10 @@
                     <div class="block grey-bg">
                       <h4>Group Administrators</h4>
                       <div class="row">
-                        <div class="col-sm-9"> 
+                        <div class="col-sm-8"> 
                           <p>For this type of group, you must assign at least one additional administrator:</p>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-4 text-right">
                           <?php include( 'template-files/campus-groups-modal-addadministrators.php' ); ?> 
                         </div>
                       </div>
@@ -82,7 +81,7 @@
                     <div class="block grey-bg section-top">
                       <div class="block white-bg">
                           <h5>Current Administrators</h5>
-                          <a class="btn btn-default btn-lg btn-form-select" id="toggle-all">Select All</a>
+                          <a class="btn btn-default btn-lg checkall" id="toggle-all">Select All</a>
                       </div>
                     </div>
                   </div>
@@ -97,7 +96,7 @@
                           <table class="table">
                             <thead>
                               <tr>
-                                <th><input type="checkbox"></th>
+                                <th><input type="checkbox" class="checkall"></th>
                                 <th>Member Name</th>
                                 <th>Email</th>
                                 <th>Title</th>
@@ -127,12 +126,8 @@
                 <!-- CONTENT SECTION END -->
                 <div class="row">
                   <div class="col-xs-12">
-                    <div class="block grey-bg section-bottom">
-                      <div class="row">
-                        <div class="col-sm-12"> 
-                          <a class="btn btn-default btn-lg btn-form-select btn-bc-red pull-right">Add Selected Members</a>
-                        </div>
-                      </div>
+                    <div class="block grey-bg text-right">
+                       <a class="btn btn-default btn-lg btn-form-select btn-bc-red">Add Selected Members</a>
                     </div>
                   </div>
                 </div>
@@ -142,8 +137,8 @@
                   <div class="col-xs-12">
                     <div class="block content-footer">
                       <div class="row">
-                        <div class="col-xs-12">
-                          <a href="campus-groups-mygroups-group.php" class="btn btn-default btn-bc-red btn-lg pull-right" >
+                        <div class="col-xs-12 text-right">
+                          <a href="campus-groups-mygroups-group.php" class="btn btn-default btn-bc-red btn-lg" > 
                             Save and Create Group >
                           </a> 
                         </div>
@@ -152,7 +147,6 @@
                   </div>
                 </div>
                 <!-- CONTENT FOOTER END -->
-              <!-- </form> -->
             </div>
           </div>
           <!-- CONTENT - MAIN SECTION END -->

@@ -322,6 +322,7 @@
   }
   
   .content-subheader .create-steps li {
+	  text-align: center;
 	  width: 33%;
   }
   
@@ -334,6 +335,29 @@
   .content-subheader .create-steps .active a {
 	  color:#fff;
   }
+  
+  ul.create-steps li{
+	  vertical-align: top;
+  }
+  
+  ul.create-steps li.active a:before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgba(194, 225, 245, 0) rgba(194, 225, 245, 0) #FFFFFF;
+    border-image: none;
+    border-style: solid;
+    border-width: 9px;
+    bottom: 0;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -9px;
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+	}
   
   /*.content-subheader .create-steps li:after{ 
    content: '\f0da';
@@ -485,6 +509,10 @@
   }
   
   .nav-tabs > li.active {
+    border-bottom: 1px solid #EFEFEF;
+  }
+  
+  .content-subheader.nav-tabs > li.active {
     border-bottom: 1px solid #FFFFFF;
   }
   
@@ -608,6 +636,7 @@
 /* ## MODALS */ 
      .modal-content {
 		 border-radius: 0;
+		 text-align: left;
 	 }
 	 
 	 .modal-body {
@@ -714,7 +743,11 @@
   }
   
   .ad {
-	  margin-top: 15px;
+	  margin-top: 15px;	  
+  }
+  
+  .ad a {
+	  color:#fff;
   }
   
   .ad .glyphicon {
@@ -1162,6 +1195,12 @@
 	.navbar-toggle { 
 		margin-right: 0;
 	}
+	
+	.content-subheader .create-steps a {
+		font-size: 16px;
+	}
+	
+	
 
  
 }
